@@ -3,7 +3,7 @@
     position: relative;
     min-height: calc(100vh - 70px);
     background: linear-gradient(rgba(40, 60, 80, 0.85), rgba(40, 60, 80, 0.85)),
-              url('/src/images/adrian-sulyok-c_4eaGRDSVU-unsplash.jpg');
+              url('../images/adrian-sulyok-c_4eaGRDSVU-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

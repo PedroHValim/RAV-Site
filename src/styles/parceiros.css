@@ -1,7 +1,7 @@
 #parceiros {
     display: flex;
     background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-              url('/src/images/sp.jpg');
+              url('../images/sp.jpg');
     background-size: cover;
     background-position: center;
     color: #d4af37;
