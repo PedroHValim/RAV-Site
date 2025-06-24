@@ -3,7 +3,7 @@
     position: relative;
     min-height: calc(100vh - 92.64px);
     background: linear-gradient(rgba(0, 40, 40, 0.85), rgba(0, 40, 40, 0.85)),
-              url('/src/images/fundo.webp');
+              url('../images/fundo.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
