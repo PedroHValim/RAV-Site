@@ -1,0 +1,120 @@
+#home{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 92.64px);
+    background: linear-gradient(rgba(0, 40, 40, 0.85), rgba(0, 40, 40, 0.85)),
+              url('/RAV/src/images/fundo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+section {
+  scroll-margin-top: 96px;
+}
+
+#cta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title{
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+#cta .title span{
+    color: rgb(88, 180, 255);
+}
+
+#cta .description{
+    font-size: 1.5rem;
+    color: rgb(165, 165, 165);
+}
+
+#cta_button{
+    display: flex;
+    gap: 24px;
+}
+
+#cta_button a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#phone_button{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+}
+
+
+#banner{
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#banner img{
+    width: 70%;
+    height: 100%;
+    border-radius:  20% 20% 0% 20%;
+}
+
+.shape{
+    background-color: #0c1955;
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    border-radius: 20% 20% 0% 20%;
+    top: 20px;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1170px){
+    #home{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img,
+    #home .shape{
+        display: none;
+    }
+
+    #cta{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #cta .title{
+    font-size: 3rem;
+    color: #1d1d1d;
+    }
+
+    #cta .description{
+    font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    #phone_button button{
+        display: none;
+    }
+}
