@@ -1,97 +1,6 @@
 // Dados dos produtos
 const productsData = [
     {
-        "id": 1,
-        "name": "Tênis Esportivo Premium",
-        "description": "Tênis de alta performance para corrida e academia",
-        "category": "masculino",
-        "subcategory": "Calçados"
-    },
-    {
-        "id": 2,
-        "name": "Camisa Polo Clássica",
-        "description": "Camisa polo em algodão premium com acabamento refinado",
-        "category": "masculino",
-        "subcategory": "Roupas"
-    },
-    {
-        "id": 3,
-        "name": "Jaqueta Impermeável",
-        "description": "Jaqueta resistente à água ideal para atividades ao ar livre",
-        "category": "masculino",
-        "subcategory": "Roupas"
-    },
-    {
-        "id": 4,
-        "name": "Vestido Elegante",
-        "description": "Vestido sofisticado para ocasiões especiais",
-        "category": "feminino",
-        "subcategory": "Roupas"
-    },
-    {
-        "id": 5,
-        "name": "Tênis Feminino Sport",
-        "description": "Tênis confortável para atividades esportivas",
-        "category": "feminino",
-        "subcategory": "Calçados"
-    },
-    {
-        "id": 6,
-        "name": "Shorts de Corrida",
-        "description": "Shorts leve e respirável para corrida",
-        "category": "masculino",
-        "subcategory": "Roupas"
-    },
-    {
-        "id": 7,
-        "name": "Mochila Urbana",
-        "description": "Mochila moderna com compartimentos organizadores",
-        "category": "masculino",
-        "subcategory": "Acessórios"
-    },
-    {
-        "id": 8,
-        "name": "Tênis Infantil Colorido",
-        "description": "Tênis divertido e confortável para crianças",
-        "category": "criancas",
-        "subcategory": "Calçados"
-    },
-    {
-        "id": 9,
-        "name": "Blusa Feminina Casual",
-        "description": "Blusa confortável para o dia a dia",
-        "category": "feminino",
-        "subcategory": "Roupas"
-    },
-    {
-        "id": 10,
-        "name": "Calça Jeans Premium",
-        "description": "Calça jeans de alta qualidade com corte moderno",
-        "category": "masculino",
-        "subcategory": "Roupas"
-    },
-    {
-        "id": 11,
-        "name": "Sandália Infantil",
-        "description": "Sandália resistente e confortável para crianças",
-        "category": "criancas",
-        "subcategory": "Calçados"
-    },
-    {
-        "id": 12,
-        "name": "Bolsa Feminina Elegante",
-        "description": "Bolsa sofisticada para ocasiões especiais",
-        "category": "feminino",
-        "subcategory": "Acessórios"
-    },
-    {
-        "id": 13,
-        "name": "Bolsa Feminina Elegante",
-        "description": "Bolsa sofisticada para ocasiões especiais",
-        "category": "feminino",
-        "subcategory": "Acessórios"
-    },
-    {
         "id": 14,
         "name": "ÁGUA DE COCO MÉDIA SOCOCO 330 ML",
         "description": "Bolsa sofisticada para ocasiões especiais",
@@ -140,12 +49,12 @@ const productsData = [
         "image": "src_produtos/images/agua_de_coco_quadrado_1l.webp"
     },
     {
-        "id": 20,
-        "name": "SUCO MAGUARY MANGA 500 ML",
+        "id": 568,
+        "name": "ÁGUA DE COCO GRANDE KERO COCO 1 L",
         "description": "Bolsa sofisticada para ocasiões especiais",
         "category": "bebidas",
-        "subcategory": "Sucos",
-        "image": "src_produtos/images/suco_maguary_manga_500ml.webp"
+        "subcategory": "Água de Coco",
+        "image": "src_produtos/images/agua_de_coco_kero_coco_1l.webp"
     },
     {
         "id": 21,
@@ -621,7 +530,7 @@ const productsData = [
 },
 {
     "id": 80,
-    "name": "ALMÔNDEGA BOVINA PERDIGÃO 500G",
+    "name": "ALMÔNDEGA BOVINA PERDIGÃO MONTANA 500G",
     "description": "",
     "category": "Proteinas",
     "subcategory": "Almôndega",
@@ -634,778 +543,6 @@ const productsData = [
     "category": "Proteinas",
     "subcategory": "Almôndega",
     "image": "src_produtos/images/almondega_bovina_sadia_500g.png"
-},
-{
-    "id": 82,
-    "name": "ALMÔNDEGA BOVINA CONGELADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_congelada_1kg.png"
-},
-{
-    "id": 83,
-    "name": "CARNE SECA PAINEIRA DESFIADA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_paineira_desfiada_500g.png"
-},
-{
-    "id": 84,
-    "name": "CARNE SECA PAINEIRA PEÇA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_paineira_peca_1kg.png"
-},
-{
-    "id": 85,
-    "name": "CARNE SECA RESFRIADA SERTANEJA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_resfriada_sertaneja_1kg.png"
-},
-{
-    "id": 86,
-    "name": "CARNE DE SOL PICADA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_de_sol_picada_500g.png"
-},
-{
-    "id": 87,
-    "name": "CARNE BOVINA MOÍDA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_moida_1kg.png"
-},
-{
-    "id": 88,
-    "name": "CARNE BOVINA MOÍDA CONGELADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_moida_congelada_1kg.png"
-},
-{
-    "id": 89,
-    "name": "CARNE BOVINA CUBOS 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_cubos_500g.png"
-},
-{
-    "id": 90,
-    "name": "CARNE BOVINA PICADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_picada_1kg.png"
-},
-{
-    "id": 91,
-    "name": "CARNE BOVINA EM TIRAS 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_em_tiras_500g.png"
-},
-{
-    "id": 92,
-    "name": "HAMBÚRGUER SEARA 56G CADA",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_seara_56g.png"
-},
-{
-    "id": 93,
-    "name": "HAMBÚRGUER SADIA 56G CADA",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_sadia_56g.png"
-},
-{
-    "id": 94,
-    "name": "HAMBÚRGUER PERDIGÃO 56G CADA",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_perdigao_56g.png"
-},
-{
-    "id": 95,
-    "name": "HAMBÚRGUER CONGELADO PCT 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_congelado_1kg.png"
-},
-{
-    "id": 96,
-    "name": "HAMBÚRGUER BOVINO ARTESANAL 120G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_artesanal_120g.png"
-},
-{
-    "id": 97,
-    "name": "HAMBÚRGUER BLACK ANGUS 120G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_black_angus_120g.png"
-},
-{
-    "id": 98,
-    "name": "HAMBÚRGUER BOVINO GRILL 100G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_grill_100g.png"
-}
-,
-{
-    "id": 99,
-    "name": "HAMBÚRGUER CASEIRO BOVINO 120G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_caseiro_bovino_120g.png"
-},
-{
-    "id": 100,
-    "name": "HAMBÚRGUER BOVINO PÃO DE ALHO 100G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_pao_de_alho_100g.png"
-},
-{
-    "id": 101,
-    "name": "HAMBÚRGUER BOVINO PICANTE 100G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_picante_100g.png"
-},
-{
-    "id": 102,
-    "name": "HAMBÚRGUER BOVINO TRADICIONAL 90G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_tradicional_90g.png"
-},
-{
-    "id": 103,
-    "name": "CARNE BOVINA ASSADA FATIADA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_assada_fatiada_500g.png"
-},
-{
-    "id": 104,
-    "name": "CARNE BOVINA COZIDA DESFIADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_cozida_desfiada_1kg.png"
-},
-{
-    "id": 105,
-    "name": "CARNE BOVINA AO MOLHO 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_ao_molho_500g.png"
-},
-{
-    "id": 106,
-    "name": "CARNE BOVINA TEMPERADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_temperada_1kg.png"
-},
-{
-    "id": 107,
-    "name": "CARNE BOVINA DESFIADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_desfiada_1kg.png"
-},
-{
-    "id": 108,
-    "name": "CARNE SECA COZIDA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_cozida_500g.png"
-},
-{
-    "id": 109,
-    "name": "CARNE SECA PICADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_picada_1kg.png"
-},
-{
-    "id": 110,
-    "name": "CARNE DE SOL EM CUBOS 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_de_sol_em_cubos_500g.png"
-},
-{
-    "id": 111,
-    "name": "ALMÔNDEGA AO MOLHO 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_ao_molho_500g.png"
-},
-{
-    "id": 112,
-    "name": "ALMÔNDEGA BOVINA TEMPERADA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_temperada_500g.png"
-},
-{
-    "id": 113,
-    "name": "ALMÔNDEGA BOVINA ARTESANAL 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_artesanal_1kg.png"
-},
-{
-    "id": 114,
-    "name": "ALMÔNDEGA COM QUEIJO 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_com_queijo_500g.png"
-},
-{
-    "id": 115,
-    "name": "ALMÔNDEGA PICANTE 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_picante_500g.png"
-},
-{
-    "id": 116,
-    "name": "ALMÔNDEGA DE CHURRASCO 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_churrasco_500g.png"
-},
-{
-    "id": 117,
-    "name": "ALMÔNDEGA DE PANELA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_de_panela_500g.png"
-},
-{
-    "id": 118,
-    "name": "ALMÔNDEGA BOVINA LIGHT 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_light_500g.png"
-}
-,
-{
-    "id": 119,
-    "name": "CARNE BOVINA DESFIADA AO MOLHO 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_desfiada_ao_molho_500g.png"
-},
-{
-    "id": 120,
-    "name": "CARNE BOVINA COZIDA AO MOLHO 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_cozida_ao_molho_1kg.png"
-},
-{
-    "id": 121,
-    "name": "CARNE BOVINA GRELHADA FATIADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_grelhada_fatiada_1kg.png"
-},
-{
-    "id": 122,
-    "name": "CARNE DE SOL DESFIADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_de_sol_desfiada_1kg.png"
-},
-{
-    "id": 123,
-    "name": "CARNE DE SOL TEMPERADA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_de_sol_temperada_500g.png"
-},
-{
-    "id": 124,
-    "name": "CARNE SECA DESFIADA AO MOLHO 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_desfiada_ao_molho_500g.png"
-},
-{
-    "id": 125,
-    "name": "CARNE SECA COZIDA TEMPERADA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_cozida_temperada_1kg.png"
-},
-{
-    "id": 126,
-    "name": "HAMBÚRGUER ARTESANAL BOVINO 150G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_artesanal_bovino_150g.png"
-},
-{
-    "id": 127,
-    "name": "HAMBÚRGUER BOVINO COM BACON 120G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_com_bacon_120g.png"
-},
-{
-    "id": 128,
-    "name": "HAMBÚRGUER BOVINO CEBOLA CARAMELIZADA 120G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_cebola_caramelizada_120g.png"
-},
-{
-    "id": 129,
-    "name": "HAMBÚRGUER BOVINO GOURMET 150G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_gourmet_150g.png"
-},
-{
-    "id": 130,
-    "name": "HAMBÚRGUER BOVINO PIMENTA DO REINO 100G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_pimenta_do_reino_100g.png"
-},
-{
-    "id": 131,
-    "name": "HAMBÚRGUER BOVINO DEFUMADO 120G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_defumado_120g.png"
-},
-{
-    "id": 132,
-    "name": "HAMBÚRGUER BOVINO LOW CARB 90G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_low_carb_90g.png"
-},
-{
-    "id": 133,
-    "name": "ALMÔNDEGA COM ERVAS FINAS 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_com_ervas_finas_500g.png"
-},
-{
-    "id": 134,
-    "name": "ALMÔNDEGA COM MOLHO BARBECUE 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_com_molho_barbecue_500g.png"
-},
-{
-    "id": 135,
-    "name": "ALMÔNDEGA BOVINA LIGHT COM AVEIA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_light_com_aveia_500g.png"
-},
-{
-    "id": 136,
-    "name": "ALMÔNDEGA BOVINA AO FORNO 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_ao_forno_1kg.png"
-},
-{
-    "id": 137,
-    "name": "ALMÔNDEGA RECHEADA COM CATUPIRY 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_recheada_catupiry_500g.png"
-},
-{
-    "id": 138,
-    "name": "ALMÔNDEGA COM PIMENTA BIQUINHO 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_com_pimenta_biquinho_500g.png"
-}
-,
-{
-    "id": 139,
-    "name": "ALMÔNDEGA BOVINA TRADICIONAL 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_tradicional_1kg.png"
-},
-{
-    "id": 140,
-    "name": "ALMÔNDEGA BOVINA COM CHIMICHURRI 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_com_chimichurri_500g.png"
-},
-{
-    "id": 141,
-    "name": "ALMÔNDEGA COM MOLHO DE TOMATE 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_com_molho_de_tomate_500g.png"
-},
-{
-    "id": 142,
-    "name": "ALMÔNDEGA BOVINA COM ESPINAFRE 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Almôndega",
-    "image": "src_produtos/images/almondega_bovina_com_espinafre_500g.png"
-},
-{
-    "id": 143,
-    "name": "HAMBÚRGUER BOVINO COM QUEIJO 120G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_com_queijo_120g.png"
-},
-{
-    "id": 144,
-    "name": "HAMBÚRGUER COM CHEDDAR E BACON 150G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_com_cheddar_e_bacon_150g.png"
-},
-{
-    "id": 145,
-    "name": "HAMBÚRGUER BOVINO CLÁSSICO 100G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_classico_100g.png"
-},
-{
-    "id": 146,
-    "name": "HAMBÚRGUER BOVINO PICANTE 150G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_picante_150g.png"
-},
-{
-    "id": 147,
-    "name": "HAMBÚRGUER BOVINO COM CEBOLA ROXA 120G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_cebola_roxa_120g.png"
-},
-{
-    "id": 148,
-    "name": "HAMBÚRGUER BOVINO COM ALHO 100G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_com_alho_100g.png"
-},
-{
-    "id": 149,
-    "name": "HAMBÚRGUER BOVINO COM TOMILHO 100G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Hambúrguer",
-    "image": "src_produtos/images/hamburguer_bovino_com_tomilho_100g.png"
-},
-{
-    "id": 150,
-    "name": "CARNE SECA COM ABÓBORA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_com_abobora_1kg.png"
-},
-{
-    "id": 151,
-    "name": "CARNE SECA ACEBOLADA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_acebolada_500g.png"
-},
-{
-    "id": 152,
-    "name": "CARNE SECA TRADICIONAL 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_seca_tradicional_1kg.png"
-},
-{
-    "id": 153,
-    "name": "CARNE DE SOL DESFIADA COM CEBOLA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Seca",
-    "image": "src_produtos/images/carne_de_sol_desfiada_com_cebola_1kg.png"
-},
-{
-    "id": 154,
-    "name": "CARNE BOVINA AO MOLHO MADEIRA 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_ao_molho_madeira_1kg.png"
-},
-{
-    "id": 155,
-    "name": "CARNE BOVINA COZIDA AO VINHO 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_cozida_ao_vinho_1kg.png"
-},
-{
-    "id": 156,
-    "name": "CARNE BOVINA EM TIRAS 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_em_tiras_500g.png"
-},
-{
-    "id": 157,
-    "name": "CARNE BOVINA DESFIADA TEMPERADA 500G",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_desfiada_temperada_500g.png"
-},
-{
-    "id": 158,
-    "name": "CARNE BOVINA GRELHADA AO PONTO 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_grelhada_ao_ponto_1kg.png"
-},
-{
-    "id": 159,
-    "name": "CARNE BOVINA EM CUBOS 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_em_cubos_1kg.png"
-},
-{
-    "id": 160,
-    "name": "CARNE BOVINA DESFIADA COM ERVAS 1KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Carne Bovina",
-    "image": "src_produtos/images/carne_bovina_desfiada_com_ervas_1kg.png"
-}
-,
-{
-    "id": 161,
-    "name": "PALETA MOÍDA MAGRA BOVINA KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/paleta_moida_magra_bovina_kg.png"
-},
-{
-    "id": 162,
-    "name": "CHÃ DE FORA MOÍDO MAGRO BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/cha_de_fora_moido_magro_bovino_kg.png"
-},
-{
-    "id": 163,
-    "name": "CHÃ DE DENTRO MOÍDO MAGRO BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/cha_de_dentro_moido_magro_bovino_kg.png"
-},
-{
-    "id": 164,
-    "name": "ACÉM FATIADO BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/acem_fatiado_bovino_kg.png"
-},
-{
-    "id": 165,
-    "name": "CHÃ DE DENTRO FATIADO BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/cha_de_dentro_fatiado_bovino_kg.png"
-},
-{
-    "id": 166,
-    "name": "CHÃ DE FORA FATIADO BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/cha_de_fora_fatiado_bovino_kg.png"
-},
-{
-    "id": 167,
-    "name": "PATINHO FATIADO BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/patinho_fatiado_bovino_kg.png"
-},
-{
-    "id": 168,
-    "name": "COXÃO MOLE FATIADO BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/coxao_mole_fatiado_bovino_kg.png"
-},
-{
-    "id": 169,
-    "name": "ACÉM EM CUBOS BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/acem_em_cubos_bovino_kg.png"
-},
-{
-    "id": 170,
-    "name": "PATINHO EM CUBOS BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/patinho_em_cubos_bovino_kg.png"
-},
-{
-    "id": 171,
-    "name": "COXÃO MOLE EM CUBOS BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/coxao_mole_em_cubos_bovino_kg.png"
-},
-{
-    "id": 172,
-    "name": "CHÃ DE FORA EM CUBOS BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/cha_de_fora_em_cubos_bovino_kg.png"
-},
-{
-    "id": 173,
-    "name": "CHÃ DE DENTRO EM CUBOS BOVINO KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/cha_de_dentro_em_cubos_bovino_kg.png"
-},
-{
-    "id": 174,
-    "name": "PICANHA PEÇA INTEIRA BOVINA KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/picanha_peca_inteira_bovina_kg.png"
-},
-{
-    "id": 175,
-    "name": "PICANHA FATIADA BOVINA KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/picanha_fatiada_bovina_kg.png"
-},
-{
-    "id": 176,
-    "name": "PICANHA EM BIFES BOVINA KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/picanha_em_bifes_bovina_kg.png"
-},
-{
-    "id": 177,
-    "name": "CARNE MOÍDA DE PRIMEIRA BOVINA KG",
-    "description": "",
-    "category": "Proteinas",
-    "subcategory": "Bovina",
-    "image": "src_produtos/images/carne_moida_primeira_bovina_kg.png"
 },
 {
     "id": 178,
@@ -1824,22 +961,6 @@ const productsData = [
     "image": "src_produtos/images/cachaca_magnifica_tradicional_ipe_700ml.png"
   },
   {
-    "id": 230,
-    "name": "CACHAÇA TIJUCA PREMIUM 670 ML",
-    "description": "",
-    "category": "Bebidas",
-    "subcategory": "Cachaça",
-    "image": "src_produtos/images/cachaca_tijuca_premium_670ml.png"
-  },
-  {
-    "id": 231,
-    "name": "CACHAÇA GERÔNIMO OURO 670 ML",
-    "description": "",
-    "category": "Bebidas",
-    "subcategory": "Cachaça",
-    "image": "src_produtos/images/cachaca_geronimo_ouro_670ml.png"
-  },
-  {
     "id": 232,
     "name": "CACHAÇA SANTO GRAU ITIRAPUÃ 750 ML",
     "description": "",
@@ -1848,28 +969,12 @@ const productsData = [
     "image": "src_produtos/images/cachaca_santo_grau_itirapua_750ml.png"
   },
   {
-    "id": 233,
-    "name": "CACHAÇA YPIOCA 150 OURO 700 ML",
-    "description": "",
-    "category": "Bebidas",
-    "subcategory": "Cachaça",
-    "image": "src_produtos/images/cachaca_ypioca_150_ouro_700ml.png"
-  },
-  {
     "id": 234,
     "name": "CACHAÇA ANÍSIO SANTIAGO HAVANA 600 ML",
     "description": "",
     "category": "Bebidas",
     "subcategory": "Cachaça",
     "image": "src_produtos/images/cachaca_anisio_santiago_havana_600ml.png"
-  },
-  {
-    "id": 235,
-    "name": "CACHAÇA SALINAS OURO 700 ML",
-    "description": "",
-    "category": "Bebidas",
-    "subcategory": "Cachaça",
-    "image": "src_produtos/images/cachaca_salinas_ouro_700ml.png"
   },
   {
     "id": 236,
@@ -1881,19 +986,11 @@ const productsData = [
   },
   {
     "id": 237,
-    "name": "CACHAÇA WEBER HAUS OURO 700 ML",
+    "name": "CACHAÇA SALINAS ARARIBÁ 700 ML",
     "description": "",
     "category": "Bebidas",
     "subcategory": "Cachaça",
-    "image": "src_produtos/images/cachaca_weber_haus_ouro_700ml.png"
-  },
-  {
-    "id": 238,
-    "name": "CACHAÇA THORO OURO 670 ML",
-    "description": "",
-    "category": "Bebidas",
-    "subcategory": "Cachaça",
-    "image": "src_produtos/images/cachaca_thoro_ouro_670ml.png"
+    "image": "src_produtos/images/cachaca_salinas_arariba_700ml.png"
   },
   {
     "id": 239,
@@ -2731,7 +1828,7 @@ const productsData = [
   "id": 345,
   "name": "EXTRATO DE TOMATE GRANDE ELEFANTE 4,08 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_grande_elefante_4080g.png"
 },
@@ -2739,7 +1836,7 @@ const productsData = [
   "id": 346,
   "name": "EXTRATO DE TOMATE BONARE GOURMET SUPER CONCENTRADO GOIÁS VERDE 4 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_bonare_gourmet_4kg.png"
 },
@@ -2747,7 +1844,7 @@ const productsData = [
   "id": 347,
   "name": "EXTRATO DE TOMATE EKMA 1,7 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_ekma_17kg.png"
 },
@@ -2755,7 +1852,7 @@ const productsData = [
   "id": 348,
   "name": "EXTRATO DE TOMATE BONARE GOIÁS VERDE 4 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_bonare_goias_4kg.png"
 },
@@ -2763,7 +1860,7 @@ const productsData = [
   "id": 349,
   "name": "EXTRATO DE TOMATE AJINOMOTO 2 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_ajinomoto_2kg.png"
 },
@@ -2771,7 +1868,7 @@ const productsData = [
   "id": 350,
   "name": "EXTRATO DE TOMATE QUERO 1,020 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_quero_1020g.png"
 },
@@ -2779,7 +1876,7 @@ const productsData = [
   "id": 351,
   "name": "EXTRATO DE TOMATE BONARE GOIÁS VERDE 1,7 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_bonare_goias_17kg.png"
 },
@@ -2787,7 +1884,7 @@ const productsData = [
   "id": 352,
   "name": "EXTRATO DE TOMATE ELEFANTE 1,7 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_elefante_17kg.png"
 },
@@ -2795,7 +1892,7 @@ const productsData = [
   "id": 353,
   "name": "EXTRATO DE TOMATE ELEFANTE 1,04 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_elefante_104kg.png"
 },
@@ -2803,10 +1900,3506 @@ const productsData = [
   "id": 354,
   "name": "EXTRATO DE TOMATE KNORR 1,5 KG",
   "description": "",
-  "category": "Alimentos",
+  "category": "Conservas/Enlatados",
   "subcategory": "Extrato de Tomate",
   "image": "src_produtos/images/extrato_tomate_knorr_15kg.png"
+},
+{
+  "id": 355,
+  "name": "POLPA DE TOMATE QUERO 1,050 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Polpa",
+  "image": "src_produtos/images/polpa_tomate_quero_1050kg.png"
+},
+{
+  "id": 356,
+  "name": "PASSATA DI POMODORO LA PASTINA 680 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Polpa",
+  "image": "src_produtos/images/passata_la_pastina_680g.png"
+},
+{
+  "id": 357,
+  "name": "PASSATA KNORR 1,5 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Polpa",
+  "image": "src_produtos/images/passata_knorr_15kg.png"
+},
+{
+  "id": 358,
+  "name": "MOLHO PARA PIZZA EKMA 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_pizza_ekma_17kg.png"
+},
+{
+  "id": 359,
+  "name": "MOLHO DE TOMATE REFOGADO TRADICIONAL EKMA 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_ekma_refogado_17kg.png"
+},
+{
+  "id": 360,
+  "name": "MOLHO DE TOMATE TRADICIONAL MAMMA D ORO CEPÊRA 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_cepera_tradicional_17kg.png"
+},
+{
+  "id": 361,
+  "name": "MOLHO DE TOMATE TRADICIONAL TARANTELLA 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_tarantella_17kg.png"
+},
+{
+  "id": 362,
+  "name": "MOLHO DE TOMATE TRADICIONAL HEINZ 1,02 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_heinz_102kg.png"
+},
+{
+  "id": 363,
+  "name": "MOLHO DE TOMATE PIZZA CEPÊRA MAMMA D ORO 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_pizza_cepera_17kg.png"
+},
+{
+  "id": 364,
+  "name": "MOLHO DE TOMATE TRADICIONAL FUGINI 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_fugini_17kg.png"
+},
+{
+  "id": 365,
+  "name": "MOLHO DE TOMATE TRADICIONAL BONARE GOIÁS VERDE 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_bonare_goias_17kg.png"
+},
+{
+  "id": 366,
+  "name": "MOLHO DE TOMATE TRADICIONAL QUERO BAG 2 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_quero_bag_2kg.png"
+},
+{
+  "id": 367,
+  "name": "MOLHO DE TOMATE PIZZA BONARE GOIÁS VERDE 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_pizza_bonare_goias_17kg.png"
+},
+{
+  "id": 368,
+  "name": "MOLHO DE TOMATE TRADICIONAL POMAROLA 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_pomarola_17kg.png"
+},
+{
+  "id": 369,
+  "name": "MOLHO DE TOMATE TRADICIONAL KNORR 1,5 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molho de Tomate",
+  "image": "src_produtos/images/molho_tomate_knorr_15kg.png"
+},
+{
+  "id": 370,
+  "name": "TOMATE PELADO INTEIRO ARCO BELLO 2,5 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Tomate Pelado",
+  "image": "src_produtos/images/tomate_pelado_arco_bello_25kg.png"
+},
+{
+  "id": 371,
+  "name": "TOMATE PELADO INTEIRO OLÉ 2,5 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Tomate Pelado",
+  "image": "src_produtos/images/tomate_pelado_ole_25kg.png"
+},
+{
+  "id": 372,
+  "name": "TOMATE PELADO INTEIRO PREDILECTA 2,5 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Tomate Pelado",
+  "image": "src_produtos/images/tomate_pelado_predilecta_25kg.png"
+},
+{
+  "id": 373,
+  "name": "MOLHO DE PIMENTA VERMELHA EKMA 1,01 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_pimenta_ekma_101l.png"
+},
+{
+  "id": 374,
+  "name": "MOLHO SALADA CAESAR KISABOR 240 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_caesar_kisabor_240ml.png"
+},
+{
+  "id": 375,
+  "name": "MOLHO SHOYU CEPÊRA 1,01 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_cepera_101l.png"
+},
+{
+  "id": 376,
+  "name": "MOLHO SHOYU EKMA 1,01 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_ekma_101l.png"
+},
+{
+  "id": 377,
+  "name": "MOLHO SHOYU GRANDE EKMA 3,1 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_grande_ekma_31l.png"
+},
+{
+  "id": 378,
+  "name": "MOLHO ITALIAN SACHÊ JUNIOR 18 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_italian_junior_18g.png"
+},
+{
+  "id": 379,
+  "name": "MOLHO DEMI GLACE JUNIOR 500 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_demi_glace_junior_500g.png"
+},
+{
+  "id": 380,
+  "name": "MOLHO DE PIMENTA VERMELHA MC ILHENNY TABASCO 60 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_tabasco_60ml.png"
+},
+{
+  "id": 381,
+  "name": "MOLHO INGLÊS CEPÊRA 1,01 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_ingles_cepera_101l.png"
+},
+{
+  "id": 382,
+  "name": "MOLHO ALHO CEPÊRA 1,01 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_alho_cepera_101l.png"
+},
+{
+  "id": 383,
+  "name": "MOLHO DE PIMENTA VERMELHA CEPÊRA 1,01 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_pimenta_cepera_101l.png"
+},
+{
+  "id": 384,
+  "name": "MOLHO BARBECUE CEPÊRA 3,5 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_barbecue_cepera_35kg.png"
+},
+{
+  "id": 385,
+  "name": "MOLHO SALADA ROSE KISABOR 240 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_rose_kisabor_240ml.png"
+},
+{
+  "id": 386,
+  "name": "MOLHO SALADA ITALIANO KISABOR 240 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_italiano_kisabor_240ml.png"
+},
+{
+  "id": 387,
+  "name": "MOLHO SALADA PARMESÃO KISABOR 240 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_parmesao_kisabor_240ml.png"
+},
+{
+  "id": 388,
+  "name": "MOLHO SALADA LIMÃO KISABOR 240 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_limao_kisabor_240ml.png"
+},
+{
+  "id": 389,
+  "name": "MOLHO BILLY & JACK ORIGINAL KISABOR 1,01 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_billy_jack_original_kisabor_101kg.png"
+},
+{
+  "id": 390,
+  "name": "MOLHO BARBECUE EKMA 3,5 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_barbecue_ekma_35kg.png"
+},
+{
+  "id": 391,
+  "name": "MOLHO BARBECUE SACHÊ CEPÊRA 7 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_barbecue_sache_cepera_7g.png"
+},
+{
+  "id": 392,
+  "name": "MOLHO DE PIMENTA VERMELHA SACHÊ CEPÊRA 5 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_pimenta_vermelha_sache_cepera_5g.png"
+},
+{
+  "id": 393,
+  "name": "MOLHO SALADA ITALIANO CASTELO 236 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_italiano_castelo_236ml.png"
+},
+{
+  "id": 394,
+  "name": "MOLHO SALADA LIMÃO CASTELO 236 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_limao_castelo_236ml.png"
+},
+{
+  "id": 395,
+  "name": "MOLHO SALADA CAESAR CASTELO 236 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_caesar_castelo_236ml.png"
+},
+{
+  "id": 396,
+  "name": "MOLHO ITALIANO SACHÊ LANCHERO 8 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_italiano_sache_lanchero_8ml.png"
+},
+{
+  "id": 397,
+  "name": "MOLHO DE PIMENTA VERMELHA SACHÊ PREDILECTA 3 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_pimenta_vermelha_sache_predilecta_3g.png"
+},
+{
+  "id": 398,
+  "name": "MOLHO SHOYU SACHÊ EKMA 8 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_sache_ekma_8ml.png"
+},
+{
+  "id": 399,
+  "name": "MOLHO BARBECUE HEINZ 2 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_barbecue_heinz_2kg.png"
+},
+{
+  "id": 400,
+  "name": "MOLHO TÁRTARO FOOD SERVICE KISABOR 1,01",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_tartaro_food_service_kisabor_101kg.png"
+},
+{
+  "id": 401,
+  "name": "MOLHO SHOYU MÉDIO MITSUWA 3,1 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_medio_mitsuwa_31l.png"
+},
+{
+  "id": 402,
+  "name": "MOLHO SHOYU PREMIUM MITSUWA 900 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_premium_mitsuwa_900ml.png"
+},
+{
+  "id": 403,
+  "name": "MOLHO BARBECUE CEPÊRA 1,01 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_barbecue_cepera_101kg.png"
+},
+{
+  "id": 404,
+  "name": "MOLHO SALADA ITALIAN SACHÊ EKMA 18 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_salada_italian_sache_ekma_18g.png"
+},
+{
+  "id": 405,
+  "name": "MOLHO DEMI GLACE AJINOMOTO 1 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_demi_glace_ajinomoto_1kg.png"
+},
+{
+  "id": 406,
+  "name": "MOLHO BECHAMEL AJINOMOTO 1 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_bechamel_ajinomoto_1kg.png"
+},
+{
+  "id": 407,
+  "name": "MOLHO SHOYU SATIS AJINOMOTO 5 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_satis_ajinomoto_5l.png"
+},
+{
+  "id": 408,
+  "name": "MOLHO AMERICANO ZAFRÁN 1,05 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_americano_zafran_105kg.png"
+},
+{
+  "id": 409,
+  "name": "MOLHO SHOYU PONZAN 5 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_ponzan_5l.png"
+},
+{
+  "id": 410,
+  "name": "MOLHO DE PIMENTA VERMELHA KISABOR 150 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_pimenta_vermelha_kisabor_150ml.png"
+},
+{
+  "id": 411,
+  "name": "MOLHO BILLY & JACK TASTY KISABOR 1,01 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_billy_jack_tasty_kisabor_101kg.png"
+},
+{
+  "id": 412,
+  "name": "MOLHO BARBECUE SACHÊ FUGINI 7 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_barbecue_sache_fugini_7g.png"
+},
+{
+  "id": 413,
+  "name": "MOLHO AMERICANO SACHÊ ZAFRÁN 30 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_americano_sache_zafran_30g.png"
+},
+{
+  "id": 414,
+  "name": "MOLHO CHIPOTLE JUNIOR 1,01 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_chipotle_junior_101kg.png"
+},
+{
+  "id": 415,
+  "name": "MOLHO SHOYU SUAVE MITSUWA 900 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_suave_mitsuwa_900ml.png"
+},
+{
+  "id": 416,
+  "name": "MOLHO BACONNAISE JUNIOR 1,1 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_baconnaise_junior_11kg.png"
+},
+{
+  "id": 417,
+  "name": "MOLHO PIMENTA SACHÊ EKMA 3 ML",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_pimenta_sache_ekma_3ml.png"
+},
+{
+  "id": 418,
+  "name": "MOLHO SHOYU PREMIUM CEPÊRA 5 L",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Molhos",
+  "image": "src_produtos/images/molho_shoyu_premium_cepera_5l.png"
+},
+{
+  "id": 419,
+  "name": "ALMÔNDEGA AVES E BOVINA CONGELADA BRASA 1KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Almôndegas",
+  "image": "src_produtos/images/almondega_congelada_brasa1kg.png"
+},
+{
+  "id": 420,
+  "name": "ALMÔNDEGA BOVINA ANGUS CONGELADA BRASA 500 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Almôndegas",
+  "image": "src_produtos/images/almondega_brasa_congelada500g.png"
+},
+{
+  "id": 421,
+  "name": "CARNE SECA BOVINA DESFIADA REFOGADA TEMPERADA RG 300 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_seca_bovina_desfiada_refogada_rg_300g.png"
+},
+{
+  "id": 422,
+  "name": "CARNE SECA BOVINA PEQUENA TRASEIRO REAL SABOR 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_seca_bovina_pequena_traseiro_real_sabor_1kg.png"
+},
+{
+  "id": 423,
+  "name": "CARNE SECA BOVINA GRANDE DIANTEIRO REAL SABOR 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_seca_bovina_grande_dianteiro_real_sabor_5kg.png"
+},
+{
+  "id": 424,
+  "name": "CARNE SECA BOVINA GRANDE DIANTEIRO JORDANÉSIA 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_seca_bovina_grande_dianteiro_jordanesia_5kg.png"
+},
+{
+  "id": 425,
+  "name": "CARNE SECA BOVINA DIANTEIRO JORDANÉSIA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_seca_bovina_dianteiro_jordanesia_1kg.png"
+},
+{
+  "id": 426,
+  "name": "CARNE SECA BOVINA GRANDE TRASEIRO REAL SABOR 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_seca_bovina_grande_traseiro_real_sabor_5kg.png"
+},
+{
+  "id": 427,
+  "name": "CARNE SECA BOVINA GRANDE TRASEIRO JORDANÉSIA 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_seca_bovina_grande_traseiro_jordanesia_5kg.png"
+},
+{
+  "id": 428,
+  "name": "CARNE SECA BOVINA CONGELADA DESFIADA ALFAMA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_seca_bovina_congelada_desfiada_alfama_1kg.png"
+},
+{
+  "id": 430,
+  "name": "CARNE DE SOL BOVINA CONGELADA DESFIADA ALFAMA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Seca",
+  "image": "src_produtos/images/carne_de_sol_bovina_congelada_desfiada_alfama_1kg.png"
+},{
+  "id": 431,
+  "name": "PICANHA BOVINA RESFRIADA DEFUMADA CERATTI 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/picanha_bovina_resfriada_defumada_ceratti_1kg.png"
+},
+{
+  "id": 432,
+  "name": "CUPIM BOVINO CONGELADO DESFIADO ALFAMA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/cupim_bovino_congelado_desfiado_alfama_1kg.png"
+},
+{
+  "id": 433,
+  "name": "COXÃO MOLE BOVINO RESFRIADO NOSSO BEEF FRIGO NOSSO 8 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/coxao_mole_bovino_resfriado_nosso_beef_8kg.png"
+},
+{
+  "id": 434,
+  "name": "CAPA DE FILÉ BOVINA RESFRIADA JORDANÉSIA 4 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/capa_de_file_bovina_resfriada_jordanesia_4kg.png"
+},
+{
+  "id": 435,
+  "name": "CORDÃO DO FILÉ MIGNON BOVINO RESFRIADO JORDANÉSIA 1,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/cordao_file_mignon_bovino_resfriado_jordanesia_15kg.png"
+},
+{
+  "id": 436,
+  "name": "PALETA BOVINA RESFRIADA SEM OSSO E SEM MÚSCULO JORDANÉSIA 8 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/paleta_bovina_resfriada_sem_osso_jordanesia_8kg.png"
+},
+{
+  "id": 437,
+  "name": "CORDÃO DO FILÉ MIGNON BOVINO CONGELADO PLENA 2 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/cordao_file_mignon_bovino_congelado_plena_2kg.png"
+},
+{
+  "id": 438,
+  "name": "PATINHO BOVINO RESFRIADO PLENA 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/patinho_bovino_resfriado_plena_5kg.png"
+},
+{
+  "id": 439,
+  "name": "CARNE MOÍDA BOVINA PEQUENA CONGELADA ALFAMA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/carne_moida_bovina_pequena_congelada_alfama_1kg.png"
+},
+{
+  "id": 440,
+  "name": "MIOLO DA ALCATRA BOVINA RESFRIADO PLENA 4 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/miolo_alcatra_bovina_resfriado_plena_4kg.png"
+},
+{
+  "id": 441,
+  "name": "FILÉ MIGNON BOVINO RESFRIADO 3/4 SEM CORDÃO FRIGOSTRELA 1,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/file_mignon_bovino_resfriado_frigostrela_15kg.png"
+},
+{
+  "id": 442,
+  "name": "CORDÃO DO FILÉ MIGNON BOVINO RESFRIADO FRIGOSTRELA 1,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/cordao_file_mignon_bovino_resfriado_frigostrela_15kg.png"
+},
+{
+  "id": 443,
+  "name": "PASTRAMI BOVINO COZIDO E DEFUMADO CERATTI 1,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/pastrami_bovino_defumado_ceratti_15kg.png"
+},
+{
+  "id": 444,
+  "name": "CARNE MOÍDA BOVINA GRANDE CONGELADA ALFAMA 2,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/carne_moida_bovina_grande_congelada_alfama_25kg.png"
+},
+{
+  "id": 445,
+  "name": "PEITO BOVINO RESFRIADO SEM OSSO FRIBOI 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/peito_bovino_resfriado_sem_osso_friboi_5kg.png"
+},
+{
+  "id": 446,
+  "name": "CUPIM BOVINO CONGELADO TIPO B BOI BRASIL 3 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/cupim_bovino_congelado_tipo_b_boi_brasil_3kg.png"
+},
+{
+  "id": 447,
+  "name": "ACÉM BOVINO RESFRIADO BOI BRASIL 7 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/acem_bovino_resfriado_boi_brasil_7kg.png"
+},
+{
+  "id": 448,
+  "name": "FRALDINHA BOVINA RESFRIADA BOI BRASIL 1,2 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/fraldinha_bovina_resfriada_boi_brasil_12kg.png"
+},
+{
+  "id": 449,
+  "name": "RABO BOVINO CONGELADO BOI BRASIL 1,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/rabo_bovino_congelado_boi_brasil_15kg.png"
+},
+{
+  "id": 450,
+  "name": "PEITO BOVINO RESFRIADO SEM OSSO GOLD BEEF 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/peito_bovino_resfriado_sem_osso_gold_beef_5kg.png"
+},
+{
+  "id": 451,
+  "name": "COXÃO MOLE BOVINO RESFRIADO BOI BRASIL 9 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/coxao_mole_bovino_resfriado_boi_brasil_9kg.png"
+},
+{
+  "id": 452,
+  "name": "COSTELA BOVINA CONGELADA DESFIADA ALFAMA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/costela_bovina_congelada_desfiada_alfama_1kg.png"
+},
+{
+  "id": 453,
+  "name": "CARNE MOÍDA BOVINA CONGELADA PATINHO BOI FORTE 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/carne_moida_bovina_congelada_patinho_boi_forte_1kg.png"
+},
+{
+  "id": 454,
+  "name": "CARNE MOÍDA BOVINA CONGELADA ACÉM BOI FORTE 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/carne_moida_bovina_congelada_acem_boi_forte_1kg.png"
+},
+{
+  "id": 455,
+  "name": "COXÃO DURO BOVINO RESFRIADO BOI BRASIL 4 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/coxao_duro_bovino_resfriado_boi_brasil_4kg.png"
+},
+{
+  "id": 456,
+  "name": "ARANHA DA ALCATRA BOVINA RESFRIADA FRIGOSTRELA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/aranha_alcatra_bovina_resfriada_frigostrela_1kg.png"
+},
+{
+  "id": 457,
+  "name": "PALETA BOVINA RESFRIADA SEM OSSO E SEM MÚSCULO BOI BRASIL 9 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/paleta_bovina_resfriada_sem_osso_musculo_boi_brasil_9kg.png"
+},
+{
+  "id": 458,
+  "name": "FILÉ MIGNON BOVINO RESFRIADO \"3 / 4\" SEM CORDÃO BOI BRASIL 1,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/file_mignon_bovino_resfriado_34_sem_cordao_boi_brasil_15kg.png"
+},
+{
+  "id": 459,
+  "name": "PICANHA BOVINA RESFRIADA TIPO A BOI BRASIL 1,2 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/picanha_bovina_resfriada_tipo_a_boi_brasil_12kg.png"
+},
+{
+  "id": 460,
+  "name": "ARANHA DA ALCATRA BOVINA CONGELADA BOI BRASIL 1,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/aranha_alcatra_bovina_congelada_boi_brasil_15kg.png"
+},
+{
+  "id": 461,
+  "name": "COXÃO MOLE BOVINO RESFRIADO MATOSO 7 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/coxao_mole_bovino_resfriado_matoso_7kg.png"
+},
+{
+  "id": 462,
+  "name": "ALCATRA COM MAMINHA BOVINA RESFRIADA MATOSO 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/alcatra_com_maminha_bovina_resfriada_matoso_5kg.png"
+},
+{
+  "id": 463,
+  "name": "COXÃO DURO BOVINO RESFRIADO MATOSO 4 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/coxao_duro_bovino_resfriado_matoso_4kg.png"
+},
+{
+  "id": 464,
+  "name": "CARNE MOÍDA BOVINA LIGHT CONGELADA ALFAMA GOURMET 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/carne_moida_bovina_light_congelada_alfama_gourmet_1kg.png"
+},
+{
+  "id": 465,
+  "name": "FÍGADO BOVINO CONGELADO FRIGOL 6 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/figado_bovino_congelado_frigol_6kg.png"
+},
+{
+  "id": 466,
+  "name": "CONTRA FILÉ BOVINO RESFRIADO SEM NOIX FRIGOL 5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/contra_file_bovino_resfriado_sem_noix_frigol_5kg.png"
+},
+{
+  "id": 467,
+  "name": "LAGARTO BOVINO RESFRIADO MATOSO 3 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/lagarto_bovino_resfriado_matoso_3kg.png"
+},
+{
+  "id": 468,
+  "name": "COSTELA BOVINA CONGELADA EM TIRAS COM OSSO MATOSO 2 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/costela_bovina_congelada_em_tiras_com_osso_matoso_2kg.png"
+},
+{
+  "id": 469,
+  "name": "COSTELA BOVINA CONGELADA ROJÃO MINGA COM OSSO MATOSO 7 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/costela_bovina_congelada_rojao_minga_com_osso_matoso_7kg.png"
+},
+{
+  "id": 470,
+  "name": "CUPIM BOVINO CONGELADO \"TIPO A\" RAMAX 2 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/cupim_bovino_congelado_tipo_a_ramax_2kg.png"
+},
+{
+  "id": 471,
+  "name": "CAPA DE FILÉ BOVINA RESFRIADA FRIGOL 2 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/capa_de_file_bovina_resfriada_frigol_2kg.png"
+},
+{
+  "id": 472,
+  "name": "CONTRA FILÉ BOVINO RESFRIADO COM NOIX AO PONTO 3 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/contra_file_bovino_resfriado_com_noix_ao_ponto_3kg.png"
+},
+{
+  "id": 473,
+  "name": "MAMINHA DA ALCATRA BOVINA RESFRIADA FRIGOL 1,3 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/maminha_da_alcatra_bovina_resfriada_frigol_13kg.png"
+},
+{
+  "id": 474,
+  "name": "FILÉ MIGNON BOVINO RESFRIADO \"4 / 5\" SEM CORDÃO ESTRELA NOVILHA JOVEM 1,5 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Carne Bovina",
+  "image": "src_produtos/images/file_mignon_bovino_resfriado_4_5_sem_cordao_estrela_novilha_jovem_15kg.png"
+},
+{
+  "id": 475,
+  "name": "HAMBÚRGUER DE CARNE BOVINA SABOR PICANHA MISTER BEEF 120 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_carne_bovina_picanha_mister_beef_120g.png"
+},
+{
+  "id": 476,
+  "name": "HAMBÚRGUER PEQUENO DE CARNE DE FRANGO CARNE SUÍNA E CARNE BOVINA FAROESTE BURGER AURORA 56 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_pequeno_frango_suina_bovina_aurora_56g.png"
+},
+{
+  "id": 477,
+  "name": "HAMBÚRGUER DE CARNE BOVINA MISTER BEEF 100 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_carne_bovina_mister_beef_100g.png"
+},
+{
+  "id": 478,
+  "name": "HAMBÚRGUER PEQUENO DE CARNE DE AVES E BOVINA COM SOJA MISTER BEEF 56 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_pequeno_aves_bovina_soja_mister_beef_56g.png"
+},
+{
+  "id": 479,
+  "name": "HAMBÚRGUER MÉDIO DE CARNE DE FRANGO E CARNE BOVINA TEXAS BURGER SEARA 90 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_medio_frango_bovina_texas_seara_90g.png"
+},
+{
+  "id": 480,
+  "name": "HAMBÚRGUER GRANDE DE CARNE BOVINA E AVES TRADICIONAL BRASA BURGUERS 120 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_grande_tradicional_brasa_120g.png"
+},
+{
+  "id": 481,
+  "name": "HAMBÚRGUER PEQUENO DE CARNE BOVINA E AVES TRADICIONAL BRASA BURGUERS 56 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_pequeno_tradicional_brasa_56g.png"
+},
+{
+  "id": 482,
+  "name": "HAMBÚRGUER MÉDIO DE CARNE BOVINA E AVES TRADICIONAL BRASA BURGUERS 90 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_medio_tradicional_brasa_90g.png"
+},
+{
+  "id": 483,
+  "name": "HAMBÚRGUER GRANDE DE CARNE BOVINA E AVES SABOR PICANHA BRASA BURGUERS 120 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_grande_picanha_brasa_120g.png"
+},
+{
+  "id": 484,
+  "name": "HAMBÚRGUER MÉDIO DE CARNE BOVINA E AVES SABOR PICANHA BRASA BURGUERS 90 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_medio_picanha_brasa_90g.png"
+},
+{
+  "id": 485,
+  "name": "HAMBÚRGUER MÉDIO DE CARNE BOVINA COSTELA ALFAMA 150 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_medio_costela_alfama_150g.png"
+},
+{
+  "id": 486,
+  "name": "HAMBÚRGUER DE CARNE DE FRANGO E CARNE SUÍNA REZENDE 56 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_frango_suina_rezende_56g.png"
+},
+{
+  "id": 487,
+  "name": "HAMBÚRGUER MÉDIO DE CARNE DE FRANGO E CARNE SUÍNA E CARNE BOVINA FAROESTE BURGER AURORA 90 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_medio_frango_suina_bovina_faroeste_aurora_90g.png"
+},
+{
+  "id": 488,
+  "name": "HAMBÚRGUER DE CARNE BOVINA COSTELA MATURATTA FRIBOI 180 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_costela_maturatta_friboi_180g.png"
+},
+{
+  "id": 489,
+  "name": "QUEIJO CRISPY BURGER SEARA GOURMET 100 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/queijo_crispy_burger_seara_gourmet_100g.png"
+},
+{
+  "id": 490,
+  "name": "HAMBÚRGUER DE CARNE BOVINA PICANHA MATURATTA FRIBOI 180 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_picanha_maturatta_friboi_180g.png"
+},
+{
+  "id": 491,
+  "name": "HAMBÚRGUER DE CARNE BOVINA FRALDINHA MATURATTA FRIBOI 180 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_fraldinha_maturatta_friboi_180g.png"
+},
+{
+  "id": 492,
+  "name": "HAMBÚRGUER PEQUENO DE CARNE DE FRANGO E CARNE BOVINA TEXAS BURGUER SEARA 56 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_pequeno_frango_bovina_texas_seara_56g.png"
+},
+{
+  "id": 493,
+  "name": "HAMBÚRGUER DE PROTEÍNA VEGETAL SABOR CARNE INCRÍVEL 113 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_proteina_vegetal_incrivel_113g.png"
+},
+{
+  "id": 494,
+  "name": "HAMBÚRGUER MÉDIO DE CARNE DE AVES E BOVINA COM SOJA MISTER BEEF 90 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_medio_aves_bovina_soja_mister_beef_90g.png"
+},
+{
+  "id": 495,
+  "name": "HAMBÚRGUER GRANDE DE CARNE BOVINA GOURMET MISTER BEEF 150 G",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Hambúrguer",
+  "image": "src_produtos/images/hamburguer_grande_gourmet_mister_beef_150g.png"
+},
+{
+  "id": 496,
+  "name": "PICANHA SUÍNA CONGELADA TEMPERADA PAMPLONA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Picanha Suína",
+  "image": "src_produtos/images/picanha_suína_congelada_temperada_pamplona.png"
+},
+{
+  "id": 497,
+  "name": "PICANHA SUÍNA TEMPERADA SWIFT 1.2 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Picanha Suína",
+  "image": "src_produtos/images/picanha_suina_swift.png"
+},
+{
+  "id": 498,
+  "name": "PICANHA SUÍNA TEMPERADA SEARA GOURMET 1,1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Picanha Suína",
+  "image": "src_produtos/images/picanha_suina_seara_gourmet_11kg.png"
+},
+{
+  "id": 499,
+  "name": "PICANHA SUÍNA CONGELADA FRIMESA 1 KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Picanha Suína",
+  "image": "src_produtos/images/picanha_suina_frimesa_1kg.png"
+},
+{
+  "id": 501,
+  "name": "PICANHA SUÍNA TEMPERADA CONGELADA PRIETO 1KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Picanha Suína",
+  "image": "src_produtos/images/picanha_suina_prieto1kg.png"
+},
+{
+  "id": 503,
+  "name": "PICANHA SUINA SADIA 1,1KG",
+  "description": "",
+  "category": "Proteinas",
+  "subcategory": "Picanha Suína",
+  "image": "src_produtos/images/picanha_suina_sadia11kg.png"
+},
+{
+  "id": 504,
+  "name": "LOMBO CANADENSE AURORA 750 G",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Lombo Suíno",
+  "image": "src_produtos/images/lombo_canadense_aurora_750g.png"
+},
+{
+  "id": 505,
+  "name": "LOMBO CANADENSE NOBRE 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Lombo Suíno",
+  "image": "src_produtos/images/lombo_canadense_nobre_1kg.png"
+},
+{
+  "id": 506,
+  "name": "LOMBO CANADENSE CERATTI 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Lombo Suíno",
+  "image": "src_produtos/images/lombo_canadense_ceratti_1kg.png"
+},
+{
+  "id": 507,
+  "name": "LOMBO CANADENSE SEARA GOURMET 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Lombo Suíno",
+  "image": "src_produtos/images/lombo_canadense_seara_gourmet_1kg.png"
+},
+{
+  "id": 508,
+  "name": "LOMBO CANADENSE LACTOFRIOS 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Lombo Suíno",
+  "image": "src_produtos/images/lombo_canadense_lactofrios_1kg.png"
+},
+{
+  "id": 509,
+  "name": "FILÉ MIGNON SUINO SEARA 1.5KG",
+  'description': "",
+  "category": "Proteínas",
+  'subcategory': "Filé Mignon Suíno",
+  "image": "src_produtos/images/file_mignon_suino_seara.png"
+},
+{
+  "id": 510,
+  "name": "CUBOS DE FILÉ MIGNON SUINO SWIFT",
+  'description': "",
+  "category": "Proteínas",
+  'subcategory': "Filé Mignon Suíno",
+  "image": "src_produtos/images/cubos_file_suino_swift.png"
+},
+{
+  "id": 511,
+  "name": "FILÉ MIGNON SUÍNO SADIA 1KG",
+  'description': "",
+  "category": "Proteínas",
+  'subcategory': "Filé Mignon Suíno",
+  "image": "src_produtos/images/file_mignon_suino_sadia1kg.png"
+},
+{
+  "id": 512,
+  "name": "FILÉ MIGNON SUINO PAMPLONA TEMPERADO 1KG",
+  'description': "",
+  "category": "Proteínas",
+  'subcategory': "Filé Mignon Suíno",
+  "image": "src_produtos/images/file_suino_pamplona1kg.png"
+},
+{
+  "id": 513,
+  "name": "COSTELA SUÍNA CONGELADA COM OSSO AURORA 1,5 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Costela Suína",
+  "image": "src_produtos/images/costela_suina_aurora_1_5kg.png"
+},
+{
+  "id": 514,
+  "name": "COSTELA SUÍNA CONGELADA TEMPERADA PAMPLONA 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Costela Suína",
+  "image": "src_produtos/images/costela_suina_pamplona_temperada_1kg.png"
+},
+{
+  "id": 515,
+  "name": "COSTELA SUÍNA CONGELADA COM OSSO MY PORK 2 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Costela Suína",
+  "image": "src_produtos/images/costela_suina_my_pork_2kg.png"
+},
+{
+  "id": 516,
+  "name": "COSTELA SUÍNA SALGADA REFFINATO 5 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Costela Suína",
+  "image": "src_produtos/images/costela_suina_salgada_reffinato_5kg.png"
+},
+{
+  "id": 517,
+  "name": "COSTELA SUÍNA TEMPERADA SADIA 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Costela Suína",
+  "image": "src_produtos/images/costela_suina_sadia1kg.png"
+},
+{
+  "id": 518,
+  "name": "PERNIL SUÍNO CONGELADO SEM OSSO TEMPERADO PAMPLONA 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Pernil",
+  "image": "src_produtos/images/Pernil_pamplona1kg.png"
+},
+{
+  "id": 519,
+  "name": "PERNIL SUINO AURORA CONGELADO COM OSSO 7KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Pernil",
+  "image": "src_produtos/images/pernil_aurora7kg.png"
+},
+{
+  "id": 520,
+  "name": "SADIA PERNIL DESOSSADO TEMPERADO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Pernil",
+  "image": "src_produtos/images/pernil_desossado_sadia.png"
+},
+{
+  "id": 521,
+  "name": "CUBOS DE PERNIL SUÍNO SWIFT",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Pernil",
+  "image": "src_produtos/images/pernil_cubos_swift.png"
+},
+{
+  "id": 522,
+  "name": "PERNIL SUÍNO SEM OSSO AO VINHO ESPUMANTE SADIA 3,6KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Pernil",
+  "image": "src_produtos/images/pernil_sadia_ao_espumante3.6kg.png"
+},
+{
+  "id": 523,
+  "name": "BISTECA SUÍNA CONGELADA FRIMESA",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Bisteca",
+  "image": "src_produtos/images/bisteca_frimesa.png"
+},
+{
+  "id": 524,
+  "name": "BISTECA SUÍNA CONGELADA PAMPLONA",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Bisteca",
+  "image": "src_produtos/images/bisteca_pamplona.png"
+},
+{
+  "id": 525,
+  "name": "BISTECA SUÍNA AURORA CONGELADA 1KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Bisteca",
+  "image": "src_produtos/images/bisteca_aurora.png"
+},
+{
+  "id": 526,
+  "name": "BISTECA SUÍNA SADIA CONGELADA 800G",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Bisteca",
+  "image": "src_produtos/images/bisteca_sadia.png"
+},
+{
+  "id": 527,
+  "name": "BLANQUET DE PERU SADIA 1,75 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Peru",
+  "image": "src_produtos/images/blanquet_peru_sadia_1_75kg.png"
+},
+{
+  "id": 528,
+  "name": "PEITO DE PERU REZENDE 2,5 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Peru",
+  "image": "src_produtos/images/peito_peru_rezende_2_5kg.png"
+},
+{
+  "id": 529,
+  "name": "PEITO DE PERU SADIA 2,5 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Peru",
+  "image": "src_produtos/images/peito_peru_sadia_2_5kg.png"
+},
+{
+  "id": 530,
+  "name": "PEITO DE PERU SEARA 2,5 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Peru",
+  "image": "src_produtos/images/eito_peru_seara_2_5kg.png"
+},
+{
+  "id": 531,
+  "name": "COXAS E SOBRECOXAS DE FRANGO CONGELADAS COM OSSO ADORO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/coxa_sobrecoxa_frango_osso_adoro.png"
+},
+{
+  "id": 532,
+  "name": "PEITO DE FRANGO CONGELADO COM OSSO ALILZ",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/peito_frango_osso_alilz.png"
+},
+{
+  "id": 533,
+  "name": "MEIO DAS ASAS DE FRANGO TULIPAS CONGELADAS TEMPERADAS FRANGÃO FOODS",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/tulipa_frango_temperado_frangao.png"
+},
+{
+  "id": 534,
+  "name": "PEITO DE FRANGO DEFUMADO SEM OSSO CERATTI 2,3 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/peito_frango_defumado_ceratti_23kg.png"
+},
+{
+  "id": 535,
+  "name": "CHICKEN DE FRANGO CONGELADO EMPANADO SUPREME SEARA 2,5 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/chicken_empanado_supreme_seara_25kg.png"
+},
+{
+  "id": 536,
+  "name": "FRANGO INTEIRO CONGELADO ALILZ 2,5 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/frango_inteiro_congelado_alilz_25kg.png"
+},
+{
+  "id": 537,
+  "name": "FILÉ DE COXAS E SOBRECOXAS DE FRANGO CONGELADO ITABOM",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/file_coxa_sobrecoxa_itabom.png"
+},
+{
+  "id": 538,
+  "name": "PEITO DE FRANGO CONGELADO COM OSSO ADORO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/peito_frango_osso_adoro.png"
+},
+{
+  "id": 539,
+  "name": "CHICKEN DE FRANGO CONGELADO EMPANADO BAITA 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/chicken_frango_empanado_baita_1kg.png"
+},
+{
+  "id": 540,
+  "name": "FRANGO A PASSARINHO CONGELADO TEMPERADO ITABOM",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/frango_passarinho_temperado_itabom.png"
+},
+{
+  "id": 541,
+  "name": "SOBRECOXAS DE FRANGO CONGELADAS COM OSSO ADORO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/sobrecoxa_frango_osso_adoro.png"
+},
+{
+  "id": 542,
+  "name": "CORAÇÃO DE FRANGO CONGELADO A GOSTO 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/coracao_frango_a_gosto_1kg.png"
+},
+{
+  "id": 543,
+  "name": "ASAS DE FRANGO CONGELADAS COPACOL",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/asas_frango_copacol.png"
+},
+{
+  "id": 544,
+  "name": "COXINHAS DAS ASAS DE FRANGO CONGELADAS ADORO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/coxinhas_asas_frango_adoro.png"
+},
+{
+  "id": 545,
+  "name": "FRANGO A PASSARINHO CONGELADO TEMPERADO ADORO 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/frango_passarinho_temperado_adoro_1kg.png"
+},
+{
+  "id": 545,
+  "name": "HAMBÚRGUER DE CARNE DE FRANGO EMPANADO LAR 100 G",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/hamburguer_frango_lar_100g.png"
+},
+{
+  "id": 546,
+  "name": "PEITO DE FRANGO CONGELADO COZIDO DESFIADO ALFAMA 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/peito_frango_desfiado_alfama_1kg.png"
+},
+{
+  "id": 547,
+  "name": "COXAS E SOBRECOXAS DE FRANGO CONGELADAS COM OSSO ALLIZ",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/coxa_sobrecoxa_frango_alliz.png"
+},
+{
+  "id": 548,
+  "name": "COXAS E SOBRECOXAS DE FRANGO CONGELADAS COM OSSO CANÇÃO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/coxa_sobrecoxa_frango_cancao.png"
+},
+{
+  "id": 549,
+  "name": "COXAS E SOBRECOXAS DE FRANGO CONGELADAS COM OSSO RICO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/coxa_sobrecoxa_frango_rico.png"
+},
+{
+  "id": 550,
+  "name": "FRANGO SEM MIÚDOS CARCAÇA CONGELADO ALLIZ 1,7 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/frango_sem_miudos_alliz.png"
+},
+{
+  "id": 551,
+  "name": "BURGER CHICKEN DE FRANGO CONGELADO EMPANADO SUPREME SEARA 2 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/burger_chicken_frango_seara_2kg.png"
+},
+{
+  "id": 552,
+  "name": "FRANGO INTEIRO CONGELADO NUTRIBEM 2,9 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/frango_inteiro_nutribem_2_9kg.png"
+},
+{
+  "id": 553,
+  "name": "COXAS E SOBRECOXAS DE FRANGO TEMPERADAS CONGELADAS COM OSSO FRANGÃO FOODS",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/coxa_sobrecoxa_temperada_frangao.png"
+},
+{
+  "id": 554,
+  "name": "ISCAS DE FRANGO APIMENTADAS EMPANADAS CONGELADAS SEARA 300 G",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/iscas_frango_apimentadas_seara_300g.png"
+},
+{
+  "id": 555,
+  "name": "ISCAS DE FRANGO EMPANADAS CONGELADAS SEARA 900 G",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Frango",
+  "image": "src_produtos/images/iscas_frango_seara_900g.png"
+},
+{
+  "id": 556,
+  "name": "FILÉ DE PEITO DE FRANGO CONGELADO COZIDO DESFIADO E TEMPERADO PIF PAF 4 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filé de Frango",
+  "image": "src_produtos/images/file_peito_frango_pifpaf_4kg.png"
+},
+{
+  "id": 557,
+  "name": "FILÉ DE PEITO DE FRANGO CONGELADO SEM OSSO SEM PELE SEM SASSAMI CANÇÃO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filé de Frango",
+  "image": "src_produtos/images/file_peito_frango_cancao.png"
+},
+{
+  "id": 558,
+  "name": "FILÉ DE MEIO PEITO DE FRANGO CONGELADO SEM OSSO SEM PELE SEM SASSAMI SUBLIME SULL",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filé de Frango",
+  "image": "src_produtos/images/file_meio_peito_frango_sublime.png"
+},
+{
+  "id": 559,
+  "name": "FILÉ DE PEITO DE FRANGO CONGELADO SEM OSSO SEM PELE COM SASSAMI JAGUÁ",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filé de Frango",
+  "image": "src_produtos/images/file_peito_frango_sassami_jagua.png"
+},
+{
+  "id": 560,
+  "name": "FILÉ DE MEIO PEITO DE FRANGO CONGELADO SEM OSSO SEM PELE SEM SASSAMI JAGUÁ 2 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filé de Frango",
+  "image": "src_produtos/images/file_meio_peito_frango_jagua_2kg.png"
+},
+{
+  "id": 561,
+  "name": "FILEZINHO SASSAMI DE FRANGO CONGELADO PERDIGÃO 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filézinho Sassami",
+  "image": "src_produtos/images/filezinho_perdigao_1kg.png"
+},
+{
+  "id": 562,
+  "name": "FILEZINHO SASSAMI DE FRANGO CONGELADO AURORA 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filézinho Sassami",
+  "image": "src_produtos/images/filezinho_aurora_1kg.png"
+},
+{
+  "id": 563,
+  "name": "FILEZINHO SASSAMI DE FRANGO CONGELADO JAGUÁ 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filézinho Sassami",
+  "image": "src_produtos/images/filezinho_jagua_1kg.png"
+},
+{
+  "id": 564,
+  "name": "FILEZINHO SASSAMI DE FRANGO CONGELADO TEMPERADOS E EMPANADOS BAITA 1 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filézinho Sassami",
+  "image": "src_produtos/images/filezinho_baita_1kg.png"
+},
+{
+  "id": 565,
+  "name": "FILEZINHO SASSAMI DE FRANGO CONGELADO TEMPERADOS E EMPANADOS LAR 1,5 KG",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filézinho Sassami",
+  "image": "src_produtos/images/filezinho_lar_1_5kg.png"
+},
+{
+  "id": 566,
+  "name": "FILEZINHO SASSAMI DE FRANGO CONGELADO DIPLOMATA",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filézinho Sassami",
+  "image": "src_produtos/images/filezinho_diplomata.png"
+},
+{
+  "id": 567,
+  "name": "FILEZINHO SASSAMI DE FRANGO CONGELADO RICO",
+  "description": "",
+  "category": "Proteínas",
+  "subcategory": "Filézinho Sassami",
+  "image": "src_produtos/images/filezinho_rico.png"
+},{
+  "id": 568,
+  "name": "VINHO NACIONAL TINTO \"SUAVE\" CHALISE 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_chalise_tinto_suave_750ml.png"
+},
+{
+  "id": 569,
+  "name": "VINHO NACIONAL TINTO \"SECO\" CHALISE 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_chalise_tinto_seco_750ml.png"
+},
+{
+  "id": 570,
+  "name": "VINHO NACIONAL BRANCO \"SUAVE\" CHALISE 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_chalise_branco_suave_750ml.png"
+},
+{
+  "id": 571,
+  "name": "VINHO NACIONAL BRANCO \"SECO\" CHALISE 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_chalise_branco_seco_750ml.png"
+},
+{
+  "id": 572,
+  "name": "VINHO NACIONAL TINTO SECO CABERNET SAUVIGNON ALMADÉN 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_almaden_tinto_seco_cabernet_750ml.png"
+},
+{
+  "id": 573,
+  "name": "VINHO NACIONAL TINTO SUAVE CABERNET ALMADÉN 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_almaden_tinto_suave_cabernet_750ml.png"
+},
+{
+  "id": 574,
+  "name": "VINHO NACIONAL TINTO SUAVE COUNTRY WINE 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_country_suave_750ml.png"
+},
+{
+  "id": 575,
+  "name": "VINHO NACIONAL TINTO SUAVE SANTOMÉ 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_santome_suave_750ml.png"
+},
+{
+  "id": 576,
+  "name": "VINHO NACIONAL TINTO SECO JURUBEBA LEÃO DO NORTE 600 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_jurubeba_leao_do_norte_600ml.png"
+},
+{
+  "id": 577,
+  "name": "VINHO NACIONAL BRANCO SECO RANDON 4,6 L",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_randon_branco_seco_4_6l.png"
+},
+{
+  "id": 578,
+  "name": "VINHO NACIONAL TINTO SECO RANDON 4,6 L",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_randon_tinto_seco_4_6l.png"
+},
+{
+  "id": 579,
+  "name": "VINHO NACIONAL TINTO SUAVE RANDON 4,6 L",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_randon_tinto_suave_4_6l.png"
+},
+{
+  "id": 580,
+  "name": "VINHO NACIONAL BRANCO SECO ALMADÉN RIESLING 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_almaden_riesling_750ml.png"
+},
+{
+  "id": 581,
+  "name": "VINHO NACIONAL TINTO SECO CABERNET SAUVIGNON",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_tinto_seco_cabernet.png"
+},
+{
+  "id": 582,
+  "name": "VINHO GRANDE NACIONAL TINTO SECO SANTOMÉ 1 L",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Nacionais",
+  "image": "src_produtos/images/vinho_santome_tinto_seco_1l.png"
+},
+{
+  "id": 583,
+  "name": "VINHO PEQUENO PORTUGUÊS TINTO SECO PERIQUITA 375 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_periquita_375ml.png"
+},
+{
+  "id": 584,
+  "name": "VINHO PORTUGUÊS TINTO SECO PERIQUITA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_periquita_750ml.png"
+},
+{
+  "id": 585,
+  "name": "VINHO CHILENO TINTO MEIO SECO CABERNET SAUVIGNON RESERVADO CONCHA Y TORO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_concha_y_toro_cabernet_750ml.png"
+},
+{
+  "id": 586,
+  "name": "VINHO CHILENO BRANCO SECO SAUVIGNON BLANC RESERVADO SANTA HELENA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_santa_helena_branco_750ml.png"
+},
+{
+  "id": 587,
+  "name": "VINHO CHILENO TINTO MEIO SECO CABERNET SAUVIGNON RESERVADO SANTA HELENA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_santa_helena_cabernet_750ml.png"
+},
+{
+  "id": 588,
+  "name": "VINHO CHILENO TINTO MEIO SECO CABERNET SAUVIGNON MERLOT RESERVADO SANTA HELENA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_santa_helena_merlot_750ml.png"
+},
+{
+  "id": 589,
+  "name": "VINHO CHILENO TINTO MEIO SECO CARMENÉRE RESERVADO SANTA HELENA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_santa_helena_carmenere_750ml.png"
+},
+{
+  "id": 590,
+  "name": "VINHO PORTUGUÊS TINTO SECO CASAL GARCIA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_casal_garcia_750ml.png"
+},
+{
+  "id": 591,
+  "name": "VINHO CHILENO TINTO MEIO SECO CARMENÉRE RESERVADO CONCHA Y TORO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_concha_y_toro_carmenere_750ml.png"
+},
+{
+  "id": 592,
+  "name": "VINHO ARGENTINO TINTO MEIO SECO MALBEC RESERVADO CONCHA Y TORO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_concha_y_toro_malbec_750ml.png"
+},
+{
+  "id": 593,
+  "name": "VINHO CHILENO TINTO MEIO SECO MERLOT RESERVADO CONCHA Y TORO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_concha_y_toro_merlot_750ml.png"
+},
+{
+  "id": 594,
+  "name": "VINHO CHILENO TINTO SECO CABERNET SAUVIGNON CASILLERO DEL DIABLO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_casillero_diablo_750ml.png"
+},
+{
+  "id": 595,
+  "name": "VINHO CHILENO TINTO MEIO SECO GATO NEGRO CABERNET SAUVIGNON SAN PEDRO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_gato_negro_cabernet_750ml.png"
+},
+{
+  "id": 596,
+  "name": "VINHO PORTUGUÊS VERDE BRANCO MEIO SECO CALAMARES 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_calamares_verde_750ml.png"
+},
+{
+  "id": 597,
+  "name": "VINHO ARGENTINO TINTO SECO GATO NEGRO MALBEC SAN PEDRO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_gato_negro_malbec_750ml.png"
+},
+{
+  "id": 598,
+  "name": "VINHO ARGENTINO TINTO SECO CABERNET SAUVIGNON BENJAMIN NIETO SENETINER 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_benjamin_cabernet_750ml.png"
+},
+{
+  "id": 599,
+  "name": "VINHO ESPANHOL TINTO SECO FINO ORO TEMPRANILLO PATA NEGRA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_pata_negra_750ml.png"
+},
+{
+  "id": 600,
+  "name": "VINHO CHILENO TINTO SECO MALBEC CASILLERO DEL DIABLO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_casillero_diablo_malbec_750ml.png"
+},
+{
+  "id": 601,
+  "name": "VINHO CHILENO TINTO MEIO SECO GATO NEGRO MERLOT SAN PEDRO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_gato_negro_merlot_750ml.png"
+},
+{
+  "id": 602,
+  "name": "VINHO CHILENO BRANCO SECO FINO SAUVIGNON BLANC CHILANO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_chilano_branco_750ml.png"
+},
+{
+  "id": 603,
+  "name": "VINHO CHILENO TINTO SECO FINO CABERNET SAUVIGNON CHILANO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_chilano_cabernet_750ml.png"
+},
+{
+  "id": 604,
+  "name": "VINHO CHILENO TINTO SECO FINO CARMENÉRE CHILANO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_chilano_carmenere_750ml.png"
+},
+{
+  "id": 605,
+  "name": "VINHO CHILENO BRANCO SECO CHARDONNAY RESERVADO SANTA HELENA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_santa_helena_chardonnay_750ml.png"
+},
+{
+  "id": 606,
+  "name": "VINHO PORTUGUÊS VERDE MEIO SECO CASAL GARCIA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_casal_garcia_verde_750ml.png"
+},
+{
+  "id": 607,
+  "name": "VINHO CHILENO TINTO SECO FINO MALBEC CHILANO 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_chilano_malbec_750ml.png"
+},
+{
+  "id": 608,
+  "name": "VINHO ARGENTINO TINTO SECO MALBEC BENJAMIN NIETO SENETINER 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_benjamin_malbec_750ml.png"
+},
+{
+  "id": 609,
+  "name": "VINHO PORTUGUÊS TINTO SECO OLARIA 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_olaria_750ml.png"
+},
+{
+  "id": 610,
+  "name": "VINHO PORTUGUÊS TINTO SECO BONS VENTOS 750 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_bons_ventos_750ml.png"
+},
+{
+  "id": 611,
+  "name": "VINHO PEQUENO PORTUGUÊS TINTO SECO BONS VENTOS 375 ML",
+  "description": "",
+  "category": "Bebidas",
+  "subcategory": "Vinhos Importados",
+  "image": "src_produtos/images/vinho_bons_ventos_375ml.png"
+},
+{
+  "id": 612,
+  "name": "MILHO GRANDE QUERO 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Milhos",
+  "image": "src_produtos/images/milho_grande_quero_1_7kg.png"
+},
+{
+  "id": 613,
+  "name": "MILHO GRANDE PREDILECTA 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Milhos",
+  "image": "src_produtos/images/milho_grande_predilecta_1_7kg.png"
+},
+{
+  "id": 614,
+  "name": "MILHO QUERO 170 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Milhos",
+  "image": "src_produtos/images/milho_quero_170g.png"
+},
+{
+  "id": 615,
+  "name": "MILHO GRANDE BONARE GOIÁS VERDE 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Milhos",
+  "image": "src_produtos/images/milho_grande_bonare_1_7kg.png"
+},
+{
+  "id": 616,
+  "name": "MILHO BONARE GOIÁS VERDE 170 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Milhos",
+  "image": "src_produtos/images/milho_bonare_170g.png"
+},
+{
+  "id": 617,
+  "name": "ERVILHA GRANDE QUERO 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Ervilhas",
+  "image": "src_produtos/images/ervilha_grande_quero_1_7kg.png"
+},
+{
+  "id": 618,
+  "name": "ERVILHA GRANDE CAMIL 2 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Ervilhas",
+  "image": "src_produtos/images/ervilha_grande_camil_2kg.png"
+},
+{
+  "id": 619,
+  "name": "ERVILHA QUERO 170 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Ervilhas",
+  "image": "src_produtos/images/ervilha_quero_170g.png"
+},
+{
+  "id": 620,
+  "name": "ERVILHA GRANDE BONARE GOIÁS VERDE 1,7 KG",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Ervilhas",
+  "image": "src_produtos/images/ervilha_grande_bonare_1_7kg.png"
+},
+{
+  "id": 621,
+  "name": "ERVILHA BONARE GOIÁS VERDE 170 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Ervilhas",
+  "image": "src_produtos/images/ervilha_bonare_170g.png"
+},
+{
+  "id": 622,
+  "name": "ERVILHA PEQUENA DA TERRINHA 500 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Ervilhas",
+  "image": "src_produtos/images/ervilha_terrinha_500g.png"
+},
+{
+  "id": 623,
+  "name": "LENTILHA CAMIL 500 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Lentilhas",
+  "image": "src_produtos/images/lentilha_camil_500g.png"
+},
+{
+  "id": 624,
+  "name": "LENTILHA KICALDO 500 G",
+  "description": "",
+  "category": "Conservas/Enlatados",
+  "subcategory": "Lentilhas",
+  "image": "src_produtos/images/lentilha_kicaldo_500g.png"
+},
+{
+  "id": 625,
+  "name": "GORGONZOLA QUATÁ 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_quata_3kg.png"
+},
+{
+  "id": 626,
+  "name": "GORGONZOLA QUEIJO AZUL SÃO VICENTE 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_queijo_azul_sao_vicente_3kg.png"
+},
+{
+  "id": 627,
+  "name": "GORGONZOLA BELLA ITÁLIA 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_bella_italia_3kg.png"
+},
+{
+  "id": 628,
+  "name": "GORGONZOLA FRACIONADO BELLA ITÁLIA 160 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_fracionado_bella_italia_160g.png"
+},
+{
+  "id": 629,
+  "name": "GORGONZOLA FRACIONADO QUEIJO AZUL TIROLEZ 200 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_fracionado_queijo_azul_tirolez_200g.png"
+},
+{
+  "id": 630,
+  "name": "GORGONZOLA QUEIJO AZUL TIROLEZ 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_queijo_azul_tirolez_3kg.png"
+},
+{
+  "id": 631,
+  "name": "GORGONZOLA FRACIONADO QUEIJO AZUL YEMA 170 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_fracionado_queijo_azul_yema_170g.png"
+},
+{
+  "id": 632,
+  "name": "GORGONZOLA FRACIONADO QUEIJO AZUL SÃO VICENTE 180 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_fracionado_queijo_azul_sao_vicente_180g.png"
+},
+{
+  "id": 633,
+  "name": "GORGONZOLA FRACIONADO QUATÁ 180 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_fracionado_quata_180g.png"
+},
+{
+  "id": 634,
+  "name": "GORGONZOLA FRACIONADO QUEIJO AZUL SCALA 180 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_fracionado_queijo_azul_scala_180g.png"
+},
+{
+  "id": 635,
+  "name": "GORGONZOLA QUEIJO AZUL BURITIS 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gorgonzola",
+  "image": "src_produtos/images/gorgonzola_queijo_azul_buritis_3kg.png"
+},
+{
+  "id": 636,
+  "name": "PARMESÃO TROPICAL SAFIRA 6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_tropical_safira_6kg.png"
+},
+{
+  "id": 637,
+  "name": "PARMESÃO 6 MESES SCALA 6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_scala_6kg.png"
+},
+{
+  "id": 638,
+  "name": "PARMESÃO SACHÊ RALADO FAIXA AZUL 10 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_sache_ralado_faixa_azul_10g.png"
+},
+{
+  "id": 639,
+  "name": "PARMESÃO PREMIUM 12 MESES SCALA 6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_premium_12_meses_scala_6kg.png"
+},
+{
+  "id": 640,
+  "name": "PARMESÃO RALADO MÉDIO FILETTINO 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_ralado_medio_filettino_1kg.png"
+},
+{
+  "id": 641,
+  "name": "PARMESÃO MONTANHÊS TRÊS MARIAS",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_montanhes_tres_marias.png"
+},
+{
+  "id": 642,
+  "name": "PARMESÃO 6 MESES QUATÁ 5,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_quata_5_5kg.png"
+},
+{
+  "id": 643,
+  "name": "PARMESÃO 6 MESES SIBÉRIA 6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_siberia_6kg.png"
+},
+{
+  "id": 644,
+  "name": "PARMESÃO 1/4 SCALA 1,35 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_1_4_scala_1_35kg.png"
+},
+{
+  "id": 645,
+  "name": "PARMESÃO CAPA PRETA BURITIS 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_capa_preta_buritis_5kg.png"
+},
+{
+  "id": 646,
+  "name": "PARMESÃO SACHÊ RALADO ITAMONTÊS 50 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_sache_ralado_itamontes_50g.png"
+},
+{
+  "id": 647,
+  "name": "PARMESÃO 6 MESES PEQUENO SIBÉRIA 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_pequeno_siberia_3kg.png"
+},
+{
+  "id": 648,
+  "name": "PARMESÃO FRACIONADO TIROLEZ 245 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_fracionado_tirolez_245g.png"
+},
+{
+  "id": 649,
+  "name": "PARMESÃO FRACIONADO QUATÁ 160 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_fracionado_quata_160g.png"
+},
+{
+  "id": 650,
+  "name": "PARMESÃO RALADO FINO VIGOR 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_ralado_fino_vigor_1kg.png"
+},
+{
+  "id": 651,
+  "name": "PARMESÃO FRACIONADO VIGOR 200 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_fracionado_vigor_200g.png"
+},
+{
+  "id": 652,
+  "name": "PARMESÃO FRACIONADO CAPA PRETA DOR 200 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_fracionado_capa_preta_dor_200g.png"
+},
+{
+  "id": 653,
+  "name": "PARMESÃO SACHÊ RALADO VIGOR 50 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_sache_ralado_vigor_50g.png"
+},
+{
+  "id": 654,
+  "name": "PARMESÃO RALADO FINO VALEZA 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_ralado_fino_valeza_1kg.png"
+},
+{
+  "id": 655,
+  "name": "PARMESÃO TROPICAL CRISTAL 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_tropical_cristal_5kg.png"
+},
+{
+  "id": 656,
+  "name": "PARMESÃO 6 MESES IPANEMA 6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_ipanema_6kg.png"
+},
+{
+  "id": 657,
+  "name": "PARMESÃO RALADO FINO RJR 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_ralado_fino_rjr_1kg.png"
+},
+{
+  "id": 658,
+  "name": "PARMESÃO RALADO GROSSO RJR 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_ralado_grosso_rjr_1kg.png"
+},
+{
+  "id": 659,
+  "name": "PARMESÃO RALADO MÉDIO RJR 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_ralado_medio_rjr_1kg.png"
+},
+{
+  "id": 660,
+  "name": "PARMESÃO RALADO FINO S & A 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_ralado_fino_s_a_1kg.png"
+},
+{
+  "id": 661,
+  "name": "PARMESÃO 6 MESES TIROLEZ 7 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_tirolez_7kg.png"
+},
+{
+  "id": 662,
+  "name": "PARMESÃO FRACIONADO SCALA 180 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_fracionado_scala_180g.png"
+},
+{
+  "id": 663,
+  "name": "PARMESÃO 6 MESES LA SERENISSIMA 8 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_la_serenissima_8kg.png"
+},
+{
+  "id": 664,
+  "name": "PARMESÃO 6 MESES POLENGHI 6,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_polenghi_6_5kg.png"
+},
+{
+  "id": 665,
+  "name": "PARMESÃO 6 MESES NOAL 6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Parmesão",
+  "image": "src_produtos/images/parmesao_6_meses_noal_6kg.png"
+},
+{
+  "id": 666,
+  "name": "QUEIJO BRIE FORMA YEMA 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Brie",
+  "image": "src_produtos/images/queijo_brie_forma_yema_1kg.png"
+},
+{
+  "id": 667,
+  "name": "QUEIJO BRIE FORMA TIROLEZ 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Brie",
+  "image": "src_produtos/images/queijo_brie_forma_tirolez_1kg.png"
+},
+{
+  "id": 668,
+  "name": "QUEIJO BRIE FORMA POLENGHI 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Brie",
+  "image": "src_produtos/images/queijo_brie_forma_polenghi_1kg.png"
+},
+{
+  "id": 669,
+  "name": "QUEIJO FRACIONADO BRIE SÃO VICENTE 115 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Brie",
+  "image": "src_produtos/images/queijo_fracionado_brie_sao_vicente_115g.png"
+},
+{
+  "id": 670,
+  "name": "QUEIJO GOUDA TIROLEZ 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gouda",
+  "image": "src_produtos/images/queijo_gouda_tirolez_3kg.png"
+},
+{
+  "id": 671,
+  "name": "QUEIJO GOUDA QUATÁ 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gouda",
+  "image": "src_produtos/images/queijo_gouda_quata_3kg.png"
+},
+{
+  "id": 672,
+  "name": "QUEIJO GOUDA BELLA ITÁLIA 3 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gouda",
+  "image": "src_produtos/images/queijo_gouda_bella_italia_3kg.png"
+},
+{
+  "id": 673,
+  "name": "QUEIJO MINAS PADRÃO TRÊS MARIAS 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Padrão",
+  "image": "src_produtos/images/queijo_minas_padrao_tres_marias_500g.png"
+},
+{
+  "id": 674,
+  "name": "QUEIJO MINAS PADRÃO SCALA 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Padrão",
+  "image": "src_produtos/images/queijo_minas_padrao_scala_500g.png"
+},
+{
+  "id": 675,
+  "name": "QUEIJO MINAS PADRÃO CRIOULO 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Padrão",
+  "image": "src_produtos/images/queijo_minas_padrao_crioulo_500g.png"
+},
+{
+  "id": 676,
+  "name": "QUEIJO MINAS PADRÃO TIROLEZ 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Padrão",
+  "image": "src_produtos/images/queijo_minas_padrao_tirolez_500g.png"
+},
+{
+  "id": 677,
+  "name": "QUEIJO MINAS FRESCAL CORONATA 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Frescal",
+  "image": "src_produtos/images/queijo-minas-frescal-coronata-500g.png"
+},
+{
+  "id": 678,
+  "name": "QUEIJO MINAS FRESCAL ITAMONTÉS",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Frescal",
+  "image": "src_produtos/images/queijo-minas-frescal-itamontes.png"
+},
+{
+  "id": 679,
+  "name": "QUEIJO MINAS FRESCAL TIROLEZ 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Frescal",
+  "image": "src_produtos/images/queijo-minas-frescal-tirolez-500g.png"
+},
+{
+  "id": 680,
+  "name": "QUEIJO MINAS FRESCAL POLENGHI 400 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Frescal",
+  "image": "src_produtos/images/queijo-minas-frescal-polenghi-400g.png"
+},
+{
+  "id": 681,
+  "name": "QUEIJO FRESCAL VALEZA 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Frescal",
+  "image": "src_produtos/images/queijo-frescal-valeza-500g.png"
+},
+{
+  "id": 682,
+  "name": "CREME DE QUEIJO MINAS FRESCAL TIROLEZ 150 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Frescal",
+  "image": "src_produtos/images/creme-de-queijo-minas-frescal-tirolez-150g.png"
+},
+{
+  "id": 683,
+  "name": "QUEIJO MINAS FRESCAL YEMA 450 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Frescal",
+  "image": "src_produtos/images/queijo-minas-frescal-yema-450g.png"
+},
+{
+  "id": 684,
+  "name": "QUEIJO PRATO DA VACA 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-da-vaca-35kg.png"
+},
+{
+  "id": 685,
+  "name": "QUEIJO PRATO CRISTAL 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-cristal-35kg.png"
+},
+{
+  "id": 686,
+  "name": "QUEIJO PRATO CORONATA 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-coronata-35kg.png"
+},
+{
+  "id": 687,
+  "name": "QUEIJO PRATO TRÊS MARIAS 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-tres-marias-35kg.png"
+},
+{
+  "id": 688,
+  "name": "QUEIJO PRATO TIROLEZ 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-tirolez-35kg.png"
+},
+{
+  "id": 689,
+  "name": "QUEIJO PRATO FATIADO PROCESSADO 184 FATIAS SCHREIBER 2,27 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-fatiado-schreiber-227kg.png"
+},
+{
+  "id": 690,
+  "name": "QUEIJO PRATO FATIADO PROCESSADO 192 FATIAS POLENGHI 2,73 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-fatiado-polenghi-273kg.png"
+},
+{
+  "id": 691,
+  "name": "QUEIJO PRATO APOLO 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-apolo-35kg.png"
+},
+{
+  "id": 692,
+  "name": "QUEIJO PRATO SCALA 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-scala-35kg.png"
+},
+{
+  "id": 693,
+  "name": "QUEIJO PRATO ESFÉRICO TIROLEZ 2 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-esferico-tirolez-2kg.png"
+},
+{
+  "id": 694,
+  "name": "QUEIJO PRATO MONTE CASTELO 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-monte-castelo-35kg.png"
+},
+{
+  "id": 695,
+  "name": "QUEIJO PRATO FATIADO PROCESSADO SABOR CHEDDAR 25 FATIAS SCAR 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-fatiado-cheddar-scar-500g.png"
+},
+{
+  "id": 696,
+  "name": "QUEIJO PRATO FATIADO PROCESSADO SABOR AMERICAN CHEESE 25 FATIAS SCAR 500 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-fatiado-american-scar-500g.png"
+},
+{
+  "id": 697,
+  "name": "QUEIJO PRATO FATIADO PROCESSADO 160 FATIAS VIGOR 2,24 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-fatiado-vigor-224kg.png"
+},
+{
+  "id": 698,
+  "name": "QUEIJO PRATO DEALE 2,8 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-deale-28kg.png"
+},
+{
+  "id": 699,
+  "name": "QUEIJO PRATO FATIADO TIROLEZ 150 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Prato",
+  "image": "src_produtos/images/queijo-prato-fatiado-tirolez-150g.png"
+},
+{
+  "id": 700,
+  "name": "MISTURA DE REQUEIJÃO SABOR CHEDDAR PURANATA 1,2 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/mistura-requeijao-cheddar-puranata-1-2kg.png"
+},
+{
+  "id": 701,
+  "name": "MISTURA DE REQUEIJÃO SABOR CHEDDAR CORONATA 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/mistura-requeijao-cheddar-coronata-1-5kg.png"
+},
+{
+  "id": 702,
+  "name": "MISTURA DE REQUEIJÃO SABOR CHEDDAR DALLORA 1,8 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/mistura-requeijao-cheddar-dallora-1-8kg.png"
+},
+{
+  "id": 703,
+  "name": "MISTURA DE REQUEIJÃO SABOR CHEDDAR TOP CHEDDAR 1,2 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/mistura-requeijao-top-cheddar-1-2kg.png"
+},
+{
+  "id": 704,
+  "name": "MOLHO CHEDDAR SCHREIBER 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/molho-cheddar-schreiber-1-5kg.png"
+},
+{
+  "id": 705,
+  "name": "CHEDDAR FATIADO PROCESSADO 160 FATIAS VIGOR 2,24 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/cheddar-processado-fatiado-vigor-2-24kg.png"
+},
+{
+  "id": 706,
+  "name": "REQUEIJÃO SABOR CHEDDAR TIROLEZ 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-tirolez-1-5kg.png"
+},
+{
+  "id": 707,
+  "name": "CHEDDAR FATIADO PROCESSADO 184 FATIAS SCHREIBER 2,27 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/cheddar-processado-schreiber-2-27kg.png"
+},
+{
+  "id": 708,
+  "name": "REQUEIJÃO SABOR CHEDDAR SOFFICE 1,2 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-soffice-1-2kg.png"
+},
+{
+  "id": 709,
+  "name": "REQUEIJÃO SABOR CHEDDAR CORONATA 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-coronata-1-5kg.png"
+},
+{
+  "id": 710,
+  "name": "MISTURA DE REQUEIJÃO SABOR CHEDDAR ROSELI 1,2 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/mistura-requeijao-cheddar-roseli-1-2kg.png"
+},
+{
+  "id": 711,
+  "name": "CHEDDAR FATIADO PROCESSADO 160 FATIAS POLENGHI 2,27 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/cheddar-processado-polenghi-2-27kg.png"
+},
+{
+  "id": 712,
+  "name": "MOLHO CHEDDAR POLENGHI 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/molho-cheddar-polenghi-1-5kg.png"
+},
+{
+  "id": 713,
+  "name": "REQUEIJÃO SABOR CHEDDAR CATUPIRY 1,010 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-catupiry-1-010kg.png"
+},
+{
+  "id": 714,
+  "name": "MISTURA DE REQUEIJÃO SABOR CHEDDAR PARMATO 1,2 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/mistura-requeijao-cheddar-parmato-1-2kg.png"
+},
+{
+  "id": 715,
+  "name": "REQUEIJÃO SABOR CHEDDAR PEQUENO CORONATA 240 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-pequeno-coronata-240g.png"
+},
+{
+  "id": 716,
+  "name": "MOLHO CHEDDAR VIGOR 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/molho-cheddar-vigor-1-5kg.png"
+},
+{
+  "id": 717,
+  "name": "REQUEIJÃO SABOR CHEDDAR POLENGHI 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-polenghi-1-5kg.png"
+},
+{
+  "id": 718,
+  "name": "REQUEIJÃO SABOR CHEDDAR SCALA 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-scala-1-5kg.png"
+},
+{
+  "id": 719,
+  "name": "REQUEIJÃO SABOR CHEDDAR SCALON 1,02 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-scalon-1-02kg.png"
+},
+{
+  "id": 720,
+  "name": "MOLHO CHEDDAR DEFUMADO POLENGHI 1,01 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/molho-cheddar-defumado-polenghi-1-01kg.png"
+},
+{
+  "id": 721,
+  "name": "REQUEIJÃO SABOR CHEDDAR VALEZA 1,003 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/requeijao-cheddar-valeza-1-003kg.png"
+},
+{
+  "id": 722,
+  "name": "MOLHO CHEDDAR CORONATA 1,02 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Cheddar",
+  "image": "src_produtos/images/molho-cheddar-coronata-1-02kg.png"
+},
+{
+  "id": 723,
+  "name": "MUÇARELA DE BÚFALA YEMA 3,7 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-de-bufala-yema-3-7kg.png"
+},
+{
+  "id": 724,
+  "name": "MUÇARELA VACA E BÚFALA MARGHERITA YEMA",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-vaca-e-bufala-margherita-yema.png"
+},
+{
+  "id": 725,
+  "name": "MUÇARELA VACA E BÚFALA CEREJAS YEMA",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-vaca-e-bufala-cerejas-yema.png"
+},
+{
+  "id": 726,
+  "name": "MUÇARELA VACA E BÚFALA BOCCONCINO YEMA",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-vaca-e-bufala-bocconcino-yema.png"
+},
+{
+  "id": 727,
+  "name": "MUÇARELA DE BÚFALA LEVITARE 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-de-bufala-levitare-4kg.png"
+},
+{
+  "id": 728,
+  "name": "MUÇARELA DE BÚFALA CEREJINHA LEVITARE 400 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-de-bufala-cerejinha-levitare-400g.png"
+},
+{
+  "id": 729,
+  "name": "MUÇARELA DE BÚFALA BOLA LEVITARE 400 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-de-bufala-bola-levitare-400g.png"
+},
+{
+  "id": 730,
+  "name": "QUEIJO TIPO BURRATA DE BÚFALA LEVITARE 150 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/burrata-de-bufala-levitare-150g.png"
+},
+{
+  "id": 731,
+  "name": "QUEIJO TIPO BURRATA DE BÚFALA DOR 180 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/burrata-de-bufala-dor-180g.png"
+},
+{
+  "id": 732,
+  "name": "MUÇARELA DE BÚFALA CEREJINHA YEMA 330 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-de-bufala-cerejinha-yema-330g.png"
+},
+{
+  "id": 733,
+  "name": "MUÇARELA DE BÚFALA BOCCONCINO YEMA 330 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Búfala",
+  "image": "src_produtos/images/mucarela-de-bufala-bocconcino-yema-330g.png"
+},
+{
+  "id": 740,
+  "name": "MUÇARELA JÓIA 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-joia-4kg.png"
+},
+{
+  "id": 741,
+  "name": "MUÇARELA TRÊS MARIAS 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-tres-marias-minas-gerais-4kg.png"
+},
+{
+  "id": 744,
+  "name": "MUÇARELA SCALA 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-scala-4kg.png"
+},
+{
+  "id": 747,
+  "name": "MUÇARELA TIROLEZ 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-tirolez-4kg.png"
+},
+{
+  "id": 749,
+  "name": "MUÇARELA COYOTE 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-coyote-4kg.png"
+},
+{
+  "id": 753,
+  "name": "MUÇARELA ITALAC 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-italac-4kg.png"
+},  
+{
+  "id": 758,
+  "name": "MUÇARELA MONTE CASTELO 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-monte-castelo-4kg.png"
+},
+{
+  "id": 760,
+  "name": "MUÇARELA ZERO LACTOSE TRÊS MARIAS 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-zero-lactose-tres-marias-4kg.png"
+},
+{
+  "id": 761,
+  "name": "MUÇARELA POLENGHI 3,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-pollenghi35kg.png"
+},
+{
+  "id": 762,
+  "name": "MUÇARELA BONÍSSIMO 4 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-bonissimo-4kg.png"
+},
+{
+  "id": 763,
+  "name": "MUÇARELA ZERO LACTOSE CRIOULO 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Muçarela de Vaca",
+  "image": "src_produtos/images/mucarela-zero-lactose-crioulo-5kg.png"
+},
+{
+  "id": 764,
+  "name": "PROVOLONE TRÊS MARIAS 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-tres-marias.png"
+},
+{
+  "id": 765,
+  "name": "PROVOLONE PEQUENO TRÊS MARIAS 2 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-pequeno-tres-marias.png"
+},
+{
+  "id": 766,
+  "name": "PROVOLONE CRISTAL 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-cristal-5kg.png"
+},
+{
+  "id": 767,
+  "name": "PROVOLONE TIROLEZ 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-tirolez.png"
+},
+{
+  "id": 768,
+  "name": "PROVOLONE TÂNIA 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-tania-5kg.png"
+},
+{
+  "id": 769,
+  "name": "PROVOLONE SCALA 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-scala-5kg.png"
+},
+{
+  "id": 770,
+  "name": "PROVOLONE APOLO 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-apolo-5kg.png"
+},
+{
+  "id": 771,
+  "name": "PROVOLONE GRANDE TIROLEZ 10 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-grande-tirolez.png"
+},
+{
+  "id": 772,
+  "name": "PROVOLONETE TIROLEZ 335 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolonete-tirolez-335g.png"
+},
+{
+  "id": 773,
+  "name": "PROVOLONETE SCALA 300 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolonete-scala-300g.png"
+},
+{
+  "id": 774,
+  "name": "PROVOLONE YEMA 5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Provolone",
+  "image": "src_produtos/images/provolone-yema.png"
+},
+{
+  "id": 775,
+  "name": "QUEIJO ESTEPE TIROLEZ 7 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Estepe",
+  "image": "src_produtos/images/estepe-tirolez7kg.png"
+},
+{
+  "id": 776,
+  "name": "QUEIJO ESTEPE IPANEMA 6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Estepe",
+  "image": "src_produtos/images/estepe-ipanema6kg.png"
+},
+{
+  "id": 777,
+  "name": "QUEIJO MINAS MEIA CURA SCALA 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Minas Meia Cura",
+  "image": "src_produtos/images/meia-cura-scala1kg.png"
+},
+{
+  "id": 778,
+  "name": "QUEIJO GRUYÉRE PEQUENO YEMA 7 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gruyére",
+  "image": "src_produtos/images/gruyere-pequeno-yema-7kg.png"
+},
+{
+  "id": 779,
+  "name": "QUEIJO GRUYÉRE QUATÁ 12 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gruyére",
+  "image": "src_produtos/images/gruyere-quata-12kg.png"
+},
+{
+  "id": 780,
+  "name": "QUEIJO FRACIONADO GRUYÉRE VIGOR 145 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gruyére",
+  "image": "src_produtos/images/gruyere-fracionado-vigor145g.png"
+},
+{
+  "id": 781,
+  "name": "QUEIJO GRUYÉRE DOR 12 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Gruyére",
+  "image": "src_produtos/images/gruyere-dor12kg.png"
+},
+{
+  "id": 782,
+  "name": "REQUEIJÃO COPO SCALA SEM AMIDO 200 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-scala-sem-amido-200g.png"
+},
+{
+  "id": 783,
+  "name": "REQUEIJÃO COPO CRIOULO SEM AMIDO 220 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-crioulo-sem-amido-220g.png"
+},
+{
+  "id": 784,
+  "name": "REQUEIJÃO COPO TIROLEZ SEM AMIDO 200 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-tirolez-sem-amido-200g.png"
+},
+{
+  "id": 785,
+  "name": "REQUEIJÃO COPO LIGHT TIROLEZ 200 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-light-tirolez-200g.png"
+},
+{
+  "id": 786,
+  "name": "REQUEIJÃO COPO POÇOS DE CALDAS SEM AMIDO 200 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-pocos-de-caldas-sem-amido-200g.png"
+},
+{
+  "id": 787,
+  "name": "REQUEIJÃO COPO GRANDE CATUPIRY SEM AMIDO 420 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-grande-catupiry-sem-amido-420g.png"
+},
+{
+  "id": 788,
+  "name": "REQUEIJÃO COPO GRANDE SCALA SEM AMIDO 380 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-grande-scala-sem-amido-380g.png"
+},
+{
+  "id": 789,
+  "name": "REQUEIJÃO COPO GRANDE TIROLEZ SEM AMIDO 400 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-grande-tirolez-sem-amido-400g.png"
+},
+{
+  "id": 790,
+  "name": "REQUEIJÃO COPO SUPREMO SEM AMIDO 200 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-copo-supremo-sem-amido-200g.png"
+},
+{
+  "id": 791,
+  "name": "REQUEIJÃO CORONATA COM GORDURA VEGETAL E AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-coronata-gordura-vegetal1.5kg.png"
+},
+{
+  "id": 792,
+  "name": "REQUEIJÃO CORONATA COM AMIDO 3,6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-coronata-com-amido3.6kg.png"
+},
+{
+  "id": 793,
+  "name": "REQUEIJÃO DANÚBIO SEM AMIDO 1 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-danubio1kg.png"
+},
+{
+  "id": 794,
+  "name": "REQUEIJÃO QUATÁ SEM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-quatá1.5kg.png"
+},
+{
+  "id": 795,
+  "name": "REQUEIJÃO TRADICIONAL CORONATA SEM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-coronata-tradicional1.5kg.png"
+},
+{
+  "id": 796,
+  "name": "REQUEIJÃO PEQUENO CORONATA COM AMIDO 400 G",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-coronata-pequeno400g.png"
+},
+{
+  "id": 797,
+  "name": "REQUEIJÃO SCALON SEM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-scalon1,5kg.png"
+},
+{
+  "id": 798,
+  "name": "REQUEIJÃO TRÊS MARIAS SEM AMIDO 1,8 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-tres-marias1.8kg.png"
+},
+{
+  "id": 799,
+  "name": "REQUEIJÃO CORONATA CREMOSO COM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-coronata-cremoso1.5kg.png"
+},
+{
+  "id": 800,
+  "name": "REQUEIJÃO IPANEMA SEM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-ipanema1.5kg.png"
+},
+{
+  "id": 801,
+  "name": "REQUEIJÃO YEMA SEM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-yema1.5kg.png"
+},
+{
+  "id": 802,
+  "name": "REQUEIJÃO CATUPIRY SEM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-catupiry-sem-amido-1-5kg.png"
+},
+{
+  "id": 803,
+  "name": "REQUEIJÃO CATUPIRY SEM AMIDO 3,6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-catupiry-sem-amido-3-6kg.png"
+},
+{
+  "id": 804,
+  "name": "REQUEIJÃO TIROLEZ SEM AMIDO 3,6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-tirolez-sem-amido-3-6kg.png"
+},
+{
+  "id": 805,
+  "name": "REQUEIJÃO TIROLEZ SEM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-tirolez-sem-amido-1-5kg.png"
+},
+{
+  "id": 806,
+  "name": "REQUEIJÃO SCALA SEM AMIDO 1,5 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-scala-sem-amido-1-5kg.png"
+},
+{
+  "id": 807,
+  "name": "REQUEIJÃO SCALA SEM AMIDO 3,6 KG",
+  "description": "",
+  "category": "Laticínios",
+  "subcategory": "Requeijão",
+  "image": "src_produtos/images/requeijao-scala-sem-amido-3-6kg.png"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
