@@ -472,6 +472,11 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+    #btn_logout{
+        display: none;
+    }
+    
     .header-content {
         flex-direction: column;
         height: auto;
@@ -491,21 +496,46 @@ body {
     }
     
     .mega-menu {
-        position: fixed;
+        position: absolute;
+        top: 100%;
         left: 0;
-        right: 0;
-        top: auto;
-        transform: none;
-        max-width: none;
-        width: 100%;
-        max-height: 70vh;
+        width: 100vw;
+        background: linear-gradient(to bottom, #e9f1ff, #ffffff); /* azul clarinho até branco */
+        z-index: 9999;
+        max-height: 60vh;
         overflow-y: auto;
-    }
-    
-    .mega-menu-content {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
         padding: 20px;
+        border-radius: 0 0 12px 12px; /* cantos inferiores arredondados */
+    }
+
+    .mega-menu-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 24px;
+    }
+
+    .mega-menu-column h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #003366; /* azul escuro para contraste */
+        margin-bottom: 12px;
+        border-left: 4px solid #4d90fe; /* barrinha de destaque */
+        padding-left: 8px;
+    }
+
+    .mega-menu-column ul li a {
+        font-size: 14px;
+        color: #333;
+        padding: 6px 0;
+        display: block;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+    }
+
+    .mega-menu-column ul li a:hover {
+        background-color: rgba(77, 144, 254, 0.1); /* hover suave */
+        padding-left: 4px;
     }
     
     /* Melhorar área de toque nos links do menu mobile */

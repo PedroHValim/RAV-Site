@@ -6281,4 +6281,3 @@ window.filterByCategory = filterByCategory;
 window.clearSearch = clearSearch;
 window.addProduct = addProduct;
 window.removeProduct = removeProduct;
-
