@@ -23,8 +23,7 @@
 }
 
 #cta_sobre .title{
-    font-size: 4rem;
-    color: #1d1d1d;
+    font-size: 3.5rem;
 }
 
 #cta_sobre .title span{
@@ -32,32 +31,9 @@
 }
 
 #cta_sobre .description{
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #ffffff;
 }
-
-#cta_button{
-    display: flex;
-    gap: 24px;
-}
-
-#cta_button a {
-    text-decoration: none;
-    color: #1d1d1d;
-}
-
-#phone_button{
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 8px 14px;
-    font-weight: 500;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-
-}
-
 
 #banner_sobre{
     display: flex;
@@ -82,12 +58,6 @@
     top: 5%;
     left: 0;
     z-index: 1;
-}
-
-@media screen and (max-width: 1600px){
-    #cta_sobre .description{
-        font-size: 1rem;
-    }
 }
 
 @media screen and (max-width: 1300px){

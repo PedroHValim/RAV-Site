@@ -17,6 +17,22 @@ const productsData = [
         "image": "src_produtos/images/whisky_ballantines_finest_8_anos_1l.png"
     },
     {
+        "id": 762,
+        "name": "MUÇARELA BONÍSSIMO 4 KG",
+        "description": "",
+        "category": "Laticínios",
+        "subcategory": "Muçarela de Vaca",
+        "image": "src_produtos/images/mucarela-bonissimo-4kg.png"
+    },
+    {
+        "id": 499,
+        "name": "PICANHA SUÍNA CONGELADA FRIMESA 1 KG",
+        "description": "",
+        "category": "Proteinas",
+        "subcategory": "Picanha Suína",
+        "image": "src_produtos/images/picanha_suina_frimesa_1kg.png"
+    },
+    {
         "id": 195,
         "name": "WHISKY BELL´S 700 ML",
         "description": "",
@@ -3409,14 +3425,6 @@ const productsData = [
         "image": "src_produtos/images/burrata-de-bufala-levitare-150g.png"
     },
     {
-        "id": 762,
-        "name": "MUÇARELA BONÍSSIMO 4 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Muçarela de Vaca",
-        "image": "src_produtos/images/mucarela-bonissimo-4kg.png"
-    },
-    {
         "id": 749,
         "name": "MUÇARELA COYOTE 4 KG",
         "description": "",
@@ -4793,14 +4801,6 @@ const productsData = [
         "image": "src_produtos/images/queijo_crispy_burger_seara_gourmet_100g.png"
     },
     {
-        "id": 499,
-        "name": "PICANHA SUÍNA CONGELADA FRIMESA 1 KG",
-        "description": "",
-        "category": "Proteinas",
-        "subcategory": "Picanha Suína",
-        "image": "src_produtos/images/picanha_suina_frimesa_1kg.png"
-    },
-    {
         "id": 496,
         "name": "PICANHA SUÍNA CONGELADA TEMPERADA PAMPLONA 1 KG",
         "description": "",
@@ -6115,8 +6115,8 @@ function showSearchSuggestions(query) {
     const suggestionsHTML = suggestions.map(product => `
         <div class="suggestion-item" onclick="selectSuggestion('${product.name}')">
             <div class="suggestion-image">
-                <div class="suggestion-image-img">
-                    <img src="${product.image}" alt="${product.name}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\\"font-size: 10px;\\">Sem imagem</span>';">
+                <div class="suggestion-image-img" >
+                    <img src="${product.image}" alt="${product.name}" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
             </div>
             <div class="suggestion-info">
