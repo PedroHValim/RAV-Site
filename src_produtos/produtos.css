@@ -498,12 +498,27 @@ body {
         transform: none;
         max-width: none;
         width: 100%;
+        max-height: 70vh;
+        overflow-y: auto;
     }
     
     .mega-menu-content {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         padding: 20px;
+    }
+    
+    /* Melhorar área de toque nos links do menu mobile */
+    .mega-menu-column a {
+        padding: 8px 4px;
+        margin: 2px 0;
+        border-radius: 4px;
+        transition: background-color 0.2s ease;
+    }
+    
+    .mega-menu-column a:hover,
+    .mega-menu-column a:active {
+        background-color: #f0f0f0;
     }
     
     .hero h2 {
@@ -531,12 +546,19 @@ body {
     
     .nav-button {
         font-size: 14px;
+        padding: 8px 4px;
     }
     
     .mega-menu-content {
         grid-template-columns: 1fr;
         gap: 16px;
         padding: 16px;
+    }
+    
+    /* Melhorar ainda mais a área de toque em telas muito pequenas */
+    .mega-menu-column a {
+        padding: 12px 8px;
+        font-size: 16px;
     }
     
     .hero h2 {

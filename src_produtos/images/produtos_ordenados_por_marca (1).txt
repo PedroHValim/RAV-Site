@@ -1,37 +1,4 @@
-// Dados dos produtos
-const productsData = [
-    {
-        "id": 192,
-        "name": "WHISKY BALLANTINES 12 ANOS 1 L",
-        "description": "",
-        "category": "Bebidas",
-        "subcategory": "Whisky",
-        "image": "src_produtos/images/whisky_ballantines_12_anos_1l.png"
-    },
-    {
-        "id": 191,
-        "name": "WHISKY BALLANTINES FINEST 8 ANOS 1 L",
-        "description": "",
-        "category": "Bebidas",
-        "subcategory": "Whisky",
-        "image": "src_produtos/images/whisky_ballantines_finest_8_anos_1l.png"
-    },
-    {
-        "id": 195,
-        "name": "WHISKY BELL´S 700 ML",
-        "description": "",
-        "category": "Bebidas",
-        "subcategory": "Whisky",
-        "image": "src_produtos/images/whisky_bells_700ml.png"
-    },
-    {
-        "id": 178,
-        "name": "WHISKY BUCHANAN´S 12 ANOS 1 L",
-        "description": "",
-        "category": "Bebidas",
-        "subcategory": "Whisky",
-        "image": "src_produtos/images/whisky_buchanans_12_anos_1l.png"
-    },
+[
     {
         "id": 234,
         "name": "CACHAÇA ANÍSIO SANTIAGO HAVANA 600 ML",
@@ -153,14 +120,6 @@ const productsData = [
         "image": "src_produtos/images/cerveja_brahma_malzbier_lata_350_ml.png"
     },
     {
-        "id": 291,
-        "name": "CERVEJA PEQUENA BRAHMA DUPLO MALTE LATA 269 ML",
-        "description": "",
-        "category": "Bebidas",
-        "subcategory": "Cervejas",
-        "image": "src_produtos/images/cerveja_pequena_brahma_duplo_malte_lata_269_ml.png"
-    },
-    {
         "id": 270,
         "name": "CERVEJA BUDWEISER LATA 350 ML",
         "description": "",
@@ -175,14 +134,6 @@ const productsData = [
         "category": "Bebidas",
         "subcategory": "Cervejas",
         "image": "src_produtos/images/cerveja_budweiser_long_neck_330_ml.png"
-    },
-    {
-        "id": 280,
-        "name": "CERVEJA PEQUENA BUDWEISER LATA 269 ML",
-        "description": "",
-        "category": "Bebidas",
-        "subcategory": "Cervejas",
-        "image": "src_produtos/images/cerveja_pequena_budweiser_lata_269_ml.png"
     },
     {
         "id": 276,
@@ -223,14 +174,6 @@ const productsData = [
         "category": "Bebidas",
         "subcategory": "Cervejas",
         "image": "src_produtos/images/cerveja_heineken_pure_malt_lager_long_neck_330_ml.png"
-    },
-    {
-        "id": 288,
-        "name": "CERVEJA PEQUENA HEINEKEN PURE MALT LAGER LATA 269 ML",
-        "description": "",
-        "category": "Bebidas",
-        "subcategory": "Cervejas",
-        "image": "src_produtos/images/cerveja_pequena_heineken_pure_malt_lager_lata_269_ml.png"
     },
     {
         "id": 287,
@@ -281,14 +224,6 @@ const productsData = [
         "image": "src_produtos/images/cerveja_media_skol_pilsen_lata_350_ml.png"
     },
     {
-        "id": 266,
-        "name": "CERVEJA PEQUENA SKOL PILSEN LATA 269 ML",
-        "description": "",
-        "category": "Bebidas",
-        "subcategory": "Cervejas",
-        "image": "src_produtos/images/cerveja_pequena_skol_pilsen_lata_269_ml.png"
-    },
-    {
         "id": 278,
         "name": "CERVEJA ORIGINAL PILSEN GARRAFA 600 ML",
         "description": "",
@@ -305,12 +240,44 @@ const productsData = [
         "image": "src_produtos/images/cerveja_original_pilsen_lata_350_ml.png"
     },
     {
+        "id": 291,
+        "name": "CERVEJA PEQUENA BRAHMA DUPLO MALTE LATA 269 ML",
+        "description": "",
+        "category": "Bebidas",
+        "subcategory": "Cervejas",
+        "image": "src_produtos/images/cerveja_pequena_brahma_duplo_malte_lata_269_ml.png"
+    },
+    {
+        "id": 280,
+        "name": "CERVEJA PEQUENA BUDWEISER LATA 269 ML",
+        "description": "",
+        "category": "Bebidas",
+        "subcategory": "Cervejas",
+        "image": "src_produtos/images/cerveja_pequena_budweiser_lata_269_ml.png"
+    },
+    {
+        "id": 288,
+        "name": "CERVEJA PEQUENA HEINEKEN PURE MALT LAGER LATA 269 ML",
+        "description": "",
+        "category": "Bebidas",
+        "subcategory": "Cervejas",
+        "image": "src_produtos/images/cerveja_pequena_heineken_pure_malt_lager_lata_269_ml.png"
+    },
+    {
         "id": 289,
         "name": "CERVEJA PEQUENA ORIGINAL LATA 269 ML",
         "description": "",
         "category": "Bebidas",
         "subcategory": "Cervejas",
         "image": "src_produtos/images/cerveja_pequena_original_lata_269_ml.png"
+    },
+    {
+        "id": 266,
+        "name": "CERVEJA PEQUENA SKOL PILSEN LATA 269 ML",
+        "description": "",
+        "category": "Bebidas",
+        "subcategory": "Cervejas",
+        "image": "src_produtos/images/cerveja_pequena_skol_pilsen_lata_269_ml.png"
     },
     {
         "id": 282,
@@ -825,14 +792,6 @@ const productsData = [
         "image": "src_produtos/images/dolly_uva_pet_2_l.png"
     },
     {
-        "id": 42,
-        "name": "DOLLY GUARANÁ PET 2 L",
-        "description": "",
-        "category": "bebidas",
-        "subcategory": "refrigerantes",
-        "image": "src_produtos/images/dolly_guarana_pet_2_l.png"
-    },
-    {
         "id": 35,
         "name": "FANTA LARANJA LATA 350 ML",
         "description": "",
@@ -871,6 +830,14 @@ const productsData = [
         "category": "bebidas",
         "subcategory": "refrigerantes",
         "image": "src_produtos/images/fanta_uva_pet_2_l.png"
+    },
+    {
+        "id": 42,
+        "name": "DOLLY GUARANÁ PET 2 L",
+        "description": "",
+        "category": "bebidas",
+        "subcategory": "refrigerantes",
+        "image": "src_produtos/images/dolly_guarana_pet_2_l.png"
     },
     {
         "id": 40,
@@ -1801,6 +1768,38 @@ const productsData = [
         "image": "src_produtos/images/vodka_smirnoff_ice_limao_long_neck_275ml.png"
     },
     {
+        "id": 192,
+        "name": "WHISKY BALLANTINES 12 ANOS 1 L",
+        "description": "",
+        "category": "Bebidas",
+        "subcategory": "Whisky",
+        "image": "src_produtos/images/whisky_ballantines_12_anos_1l.png"
+    },
+    {
+        "id": 191,
+        "name": "WHISKY BALLANTINES FINEST 8 ANOS 1 L",
+        "description": "",
+        "category": "Bebidas",
+        "subcategory": "Whisky",
+        "image": "src_produtos/images/whisky_ballantines_finest_8_anos_1l.png"
+    },
+    {
+        "id": 195,
+        "name": "WHISKY BELL´S 700 ML",
+        "description": "",
+        "category": "Bebidas",
+        "subcategory": "Whisky",
+        "image": "src_produtos/images/whisky_bells_700ml.png"
+    },
+    {
+        "id": 178,
+        "name": "WHISKY BUCHANAN´S 12 ANOS 1 L",
+        "description": "",
+        "category": "Bebidas",
+        "subcategory": "Whisky",
+        "image": "src_produtos/images/whisky_buchanans_12_anos_1l.png"
+    },
+    {
         "id": 187,
         "name": "WHISKY CHIVAS REGAL 12 ANOS 1 L",
         "description": "",
@@ -2025,6 +2024,14 @@ const productsData = [
         "image": "src_produtos/images/xarope_monin_tangerina_700_ml.png"
     },
     {
+        "id": 19,
+        "name": "ÁGUA DE COCO GRANDE COCO QUADRADO 1 L",
+        "description": "Bolsa sofisticada para ocasiões especiais",
+        "category": "bebidas",
+        "subcategory": "Água de Coco",
+        "image": "src_produtos/images/agua_de_coco_quadrado_1l.webp"
+    },
+    {
         "id": 568,
         "name": "ÁGUA DE COCO GRANDE KERO COCO 1 L",
         "description": "Bolsa sofisticada para ocasiões especiais",
@@ -2039,14 +2046,6 @@ const productsData = [
         "category": "bebidas",
         "subcategory": "Água de Coco",
         "image": "src_produtos/images/agua_de_coco_mais_coco_1l.webp"
-    },
-    {
-        "id": 19,
-        "name": "ÁGUA DE COCO GRANDE COCO QUADRADO 1 L",
-        "description": "Bolsa sofisticada para ocasiões especiais",
-        "category": "bebidas",
-        "subcategory": "Água de Coco",
-        "image": "src_produtos/images/agua_de_coco_quadrado_1l.webp"
     },
     {
         "id": 18,
@@ -2185,20 +2184,20 @@ const productsData = [
         "image": "src_produtos/images/ervilha_grande_quero_1_7kg.png"
     },
     {
-        "id": 619,
-        "name": "ERVILHA QUERO 170 G",
-        "description": "",
-        "category": "Conservas/Enlatados",
-        "subcategory": "Ervilhas",
-        "image": "src_produtos/images/ervilha_quero_170g.png"
-    },
-    {
         "id": 622,
         "name": "ERVILHA PEQUENA DA TERRINHA 500 G",
         "description": "",
         "category": "Conservas/Enlatados",
         "subcategory": "Ervilhas",
         "image": "src_produtos/images/ervilha_terrinha_500g.png"
+    },
+    {
+        "id": 619,
+        "name": "ERVILHA QUERO 170 G",
+        "description": "",
+        "category": "Conservas/Enlatados",
+        "subcategory": "Ervilhas",
+        "image": "src_produtos/images/ervilha_quero_170g.png"
     },
     {
         "id": 349,
@@ -5327,958 +5326,5 @@ const productsData = [
         "category": "Proteínas",
         "subcategory": "Peru",
         "image": "src_produtos/images/eito_peru_seara_2_5kg.png"
-    },
-    {
-        "id": 812,
-        "name": "CREAM CHEESE CATUPIRY 1,2 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-catupiry-1-2kg.png"
-    },
-    {
-        "id": 816,
-        "name": "CREAM CHEESE COROCHEESE CORONATA 1,2 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-corocheese-coronata-1-2kg.png"
-    },
-    {
-        "id": 808,
-        "name": "CREAM CHEESE DANÚBIO 1 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-danubio-1kg.png"
-    },
-    {
-        "id": 809,
-        "name": "CREAM CHEESE SACHÊ DANÚBIO 18 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-sache-danubio-18g.png"
-    },
-    {
-        "id": 821,
-        "name": "CREAM CHEESE IPANEMA 1,2 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-ipanema-1-2kg.png"
-    },
-    {
-        "id": 815,
-        "name": "CREAM CHEESE PHILADELPHIA 1,5 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-philadelphia-1-5kg.png"
-    },
-    {
-        "id": 819,
-        "name": "CREAM CHEESE PHILADELPHIA 3,6 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-philadelphia-3-6kg.png"
-    },
-    {
-        "id": 820,
-        "name": "CREAM CHEESE PEQUENO POLENGHI 300 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-pequeno-polenghi-300g.png"
-    },
-    {
-        "id": 810,
-        "name": "CREAM CHEESE POLENGHI",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-polenghi.png"
-    },
-    {
-        "id": 824,
-        "name": "CREAM CHEESE POLENGHI 1 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-polenghi1kg.png"
-    },
-    {
-        "id": 823,
-        "name": "CREAM CHEESE SACHÊ PRESIDENT 18 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-president-sache.png"
-    },
-    {
-        "id": 811,
-        "name": "CREAM CHEESE QUATÁ 1,01 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-quata-1-01kg.png"
-    },
-    {
-        "id": 818,
-        "name": "CREAM CHEESE PEQUENO SCALA 150 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-pequeno-scala-150g.png"
-    },
-    {
-        "id": 814,
-        "name": "CREAM CHEESE SCALA 1,2 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-scala-1-2kg.png"
-    },
-    {
-        "id": 817,
-        "name": "CREAM CHEESE SCALA 3,6 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-scala-3-6kg.png"
-    },
-    {
-        "id": 822,
-        "name": "CREAM CHEESE SCALON 1,02 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-scalon-1-02kg.png"
-    },
-    {
-        "id": 813,
-        "name": "CREAM CHEESE SULMINAS 1,2 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Cream Cheese",
-        "image": "src_produtos/images/cream-cheese-sulminas-1-2kg.png"
-    },
-    {
-        "id": 830,
-        "name": "CREME CULINÁRIO DAUS 1 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/creme-culinario-daus-1kg.png"
-    },
-    {
-        "id": 829,
-        "name": "CREME DE LEITE GRANDE FOOD SERVICE ITALAC 1,030 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/creme-de-leite-grande-food-service-italac-1030kg.png"
-    },
-    {
-        "id": 825,
-        "name": "CREME DE LEITE ITALAC 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/creme-de-leite-italac-200g.png"
-    },
-    {
-        "id": 828,
-        "name": "CREME DE LEITE JUSSARA 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/creme-de-leite-jussara-200g.png"
-    },
-    {
-        "id": 826,
-        "name": "BASE CULINÁRIA LECO 1 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/base-culinaria-leco-1kg.png"
-    },
-    {
-        "id": 831,
-        "name": "MISTURA LÁCTEA CREME DE LEITE MOCOCA 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/mistura-lactea-creme-de-leite-mococa-200g.png"
-    },
-    {
-        "id": 832,
-        "name": "CREME DE LEITE GRANDE FOOD SERVICE PIRACANJUBA 1,030 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/creme-de-leite-grande-food-service-piracanjuba-1030kg.png"
-    },
-    {
-        "id": 827,
-        "name": "CREME DE LEITE PIRACANJUBA 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/creme-de-leite-piracanjuba-200g.png"
-    },
-    {
-        "id": 833,
-        "name": "CREME DE LEITE QUATÁ 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Creme de Leite",
-        "image": "src_produtos/images/creme-de-leite-quata-200g.png"
-    },
-    {
-        "id": 863,
-        "name": "DOCE DE LEITE FRIMESA 4,8 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Doce de Leite",
-        "image": "src_produtos/images/doce-de-leite-frimesa-4-8kg.png"
-    },
-    {
-        "id": 865,
-        "name": "DOCE DE LEITE TRADICIONAL FRIMESA 400 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Doce de Leite",
-        "image": "src_produtos/images/doce-de-leite-tradicional-frimesa-400g.png"
-    },
-    {
-        "id": 864,
-        "name": "DOCE DE LEITE NESTLÉ 1,01 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Doce de Leite",
-        "image": "src_produtos/images/doce-de-leite-nestle-1-01kg.png"
-    },
-    {
-        "id": 862,
-        "name": "DOCE DE LEITE SABOR DE MINAS 1,5 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Doce de Leite",
-        "image": "src_produtos/images/doce-de-leite-sabor-de-minas-1-5kg.png"
-    },
-    {
-        "id": 866,
-        "name": "DOCE DE LEITE LA SERENISSIMA 1 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Doce de Leite",
-        "image": "src_produtos/images/doce-de-leite-la-serenissima-1kg.png"
-    },
-    {
-        "id": 860,
-        "name": "LEITE CONDENSADO \"INTEGRAL\" ITALAC 395 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-integral-italac-395g.png"
-    },
-    {
-        "id": 853,
-        "name": "LEITE CONDENSADO MÉDIO \"SEMIDESNATADO\" ITALAC 395 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-medio-semi-italac-395g.png"
-    },
-    {
-        "id": 849,
-        "name": "LEITE CONDENSADO PEQUENO SEMIDESNATADO ITALAC 270 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-pequeno-semi-italac-270g.png"
-    },
-    {
-        "id": 854,
-        "name": "LEITE CONDENSADO SEMIDESNATADO FOOD SERVICE ITALAC 2,5 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-foodservice-italac-2-5kg.png"
-    },
-    {
-        "id": 861,
-        "name": "LEITE CONDENSADO GRANDE INTEGRAL ITAMBÉ 1,01 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-grande-integral-itambe-1-01kg.png"
-    },
-    {
-        "id": 859,
-        "name": "LEITE CONDENSADO GRANDE INTEGRAL MOCOCA 5 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-grande-integral-mococa-5kg.png"
-    },
-    {
-        "id": 858,
-        "name": "LEITE CONDENSADO INTEGRAL MOCOCA 2,5 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-integral-mococa-2-5kg.png"
-    },
-    {
-        "id": 857,
-        "name": "LEITE CONDENSADO PEQUENO INTEGRAL MOCOCA 395 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-pequeno-integral-mococa-395g.png"
-    },
-    {
-        "id": 856,
-        "name": "MISTURA LÁCTEA CONDENSADA PEQUENA MOCOCA 395 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/mistura-lactea-condensada-mococa-395g.png"
-    },
-    {
-        "id": 851,
-        "name": "LEITE CONDENSADO GRANDE INTEGRAL MOÇA NESTLÉ 2,6 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-grande-integral-moca-nestle-2-6kg.png"
-    },
-    {
-        "id": 850,
-        "name": "LEITE CONDENSADO PEQUENO INTEGRAL MOÇA NESTLÉ 395 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-pequeno-integral-moca-nestle-395g.png"
-    },
-    {
-        "id": 852,
-        "name": "LEITE CONDENSADO PEQUENO SEMIDESNATADO PIRACANJUBA 270 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-pequeno-semi-piracanjuba-270g.png"
-    },
-    {
-        "id": 855,
-        "name": "LEITE CONDENSADO SEMIDESNATADO FOOD SERVICE PIRACANJUBA 2,5 KG",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leite Condensado",
-        "image": "src_produtos/images/leite-condensado-foodservice-piracanjuba-2-5kg.png"
-    },
-    {
-        "id": 836,
-        "name": "LEITE EM PÓ INTEGRAL ITALAC 400 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-em-po-integral-italac-400g.png"
-    },
-    {
-        "id": 834,
-        "name": "LEITE INTEGRAL ITALAC 1 L",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-integral-italac-1l.png"
-    },
-    {
-        "id": 841,
-        "name": "LEITE INTEGRAL ZERO LACTOSE ITALAC 1 L",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-zero-lactose-italac-1l.png"
-    },
-    {
-        "id": 840,
-        "name": "LEITE SEMIDESNATADO ITALAC 1 L",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-semi-italac-1l.png"
-    },
-    {
-        "id": 844,
-        "name": "LEITE EM PÓ INTEGRAL JUSSARA 400 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-em-po-integral-jussara-400g.png"
-    },
-    {
-        "id": 838,
-        "name": "LEITE INTEGRAL GARRAFA MAX JUSSARA 1 L",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-integral-garrafa-max-jussara-1l.png"
-    },
-    {
-        "id": 837,
-        "name": "LEITE INTEGRAL JUSSARA 1 L",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-integral-jussara-1l.png"
-    },
-    {
-        "id": 839,
-        "name": "LEITE SEMIDESNATADO ZERO LACTOSE JUSSARA 1 L",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-semi-zero-lactose-jussara-1l.png"
-    },
-    {
-        "id": 835,
-        "name": "LEITE EM PÓ INTEGRAL PIRACANJUBA 400 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-em-po-integral-piracanjuba-400g.png"
-    },
-    {
-        "id": 848,
-        "name": "LEITE EM PÓ DESNATADO INSTANTÂNEO LA SERENISSIMA 300 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-em-po-desnatado-instantaneo-la-serenissima-300g.png"
-    },
-    {
-        "id": 847,
-        "name": "LEITE EM PÓ INTEGRAL LA SERENISSIMA 400 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Leites",
-        "image": "src_produtos/images/leite-em-po-integral-la-serenissima-400g.png"
-    },
-    {
-        "id": 878,
-        "name": "MANTEIGA COM SAL COYOTE",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-com-sal-coyote.png"
-    },
-    {
-        "id": 872,
-        "name": "MANTEIGA SEM SAL COYOTE",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sem-sal-coyote.png"
-    },
-    {
-        "id": 879,
-        "name": "MANTEIGA PEQUENA COM SAL CRIOULO 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-pequena-com-sal-crioulo-200g.png"
-    },
-    {
-        "id": 885,
-        "name": "MANTEIGA COM SAL TABLETE DOR 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-pequena-com-sal-dor-200g.png"
-    },
-    {
-        "id": 877,
-        "name": "MANTEIGA SEM SAL FRIZZO",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sem-sal-frizzo.png"
-    },
-    {
-        "id": 874,
-        "name": "MANTEIGA COM SAL ITALAC 500 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-com-sal-italac-500g.png"
-    },
-    {
-        "id": 873,
-        "name": "MANTEIGA COM SAL TRÊS MARIAS",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-com-sal-tres-marias.png"
-    },
-    {
-        "id": 869,
-        "name": "MANTEIGA SEM SAL TRÊS MARIAS",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sem-sal-tres-marias.png"
-    },
-    {
-        "id": 875,
-        "name": "MANTEIGA SACHÊ COM SAL PRESIDENT 10 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sache-com-sal-president-10g.png"
-    },
-    {
-        "id": 876,
-        "name": "MANTEIGA SACHÊ SEM SAL PRESIDENT 10 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sache-sem-sal-president-10g.png"
-    },
-    {
-        "id": 883,
-        "name": "MANTEIGA SEM SAL BLEND PASSA QUATRO",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-pequena-sem-sal-blend-passa-quatro.png"
-    },
-    {
-        "id": 868,
-        "name": "MANTEIGA SEM SAL SCALA",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sem-sal-scala.png"
-    },
-    {
-        "id": 882,
-        "name": "MANTEIGA PEQUENA EXTRA SEM SAL LA SERENISSIMA 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-pequena-extra-sal-serenissima200g.png"
-    },
-    {
-        "id": 884,
-        "name": "MANTEIGA COM SAL TABLETE TIROLEZ 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-pequena-com-sal-tablete-tirollez-200g.png"
-    },
-    {
-        "id": 880,
-        "name": "MANTEIGA PEQUENA COM SAL TIROLEZ 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-pequena-com-sal-tirollez-200g.png"
-    },
-    {
-        "id": 881,
-        "name": "MANTEIGA PEQUENA SEM SAL TIROLEZ 200 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-pequena-sem-sal-tirollez-200g.png"
-    },
-    {
-        "id": 871,
-        "name": "MANTEIGA SEM SAL TIROLEZ",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sem-sal-tirollez.png"
-    },
-    {
-        "id": 870,
-        "name": "MANTEIGA SACHÊ COM SAL VIGOR 10 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sache-com-sal-vigor-10g.png"
-    },
-    {
-        "id": 867,
-        "name": "MANTEIGA SACHÊ SEM SAL VIGOR 10 G",
-        "description": "",
-        "category": "Laticínios",
-        "subcategory": "Manteiga",
-        "image": "src_produtos/images/manteiga-sache-sem-sal-vigor-10g.png"
     }
-];
-
-// Variáveis globais
-let filteredProducts = [...productsData];
-let currentCategory = '';
-
-// Elementos DOM
-const productsGrid = document.getElementById('productsGrid');
-const searchInput = document.getElementById('searchInput');
-const searchSuggestions = document.getElementById('searchSuggestions');
-const suggestionsList = document.getElementById('suggestionsList');
-const noResults = document.getElementById('noResults');
-const searchTerm = document.getElementById('searchTerm');
-
-// Função para detectar dispositivos móveis
-function isMobileDevice() {
-    return window.innerWidth <= 768 || 
-           /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
-// Função para inicializar eventos do Mega Menu
-function initializeMegaMenu() {
-    const navItems = document.querySelectorAll('.nav-item');
-    
-    navItems.forEach(navItem => {
-        const megaMenu = navItem.querySelector('.mega-menu');
-        const navButton = navItem.querySelector('.nav-button');
-        
-        if (isMobileDevice()) {
-            // Comportamento para dispositivos móveis
-            let isMenuOpen = false;
-            
-            // Evento de clique no botão de navegação
-            navButton.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                
-                // Fechar todos os outros menus
-                navItems.forEach(otherItem => {
-                    if (otherItem !== navItem) {
-                        const otherMenu = otherItem.querySelector('.mega-menu');
-                        otherMenu.style.opacity = '0';
-                        otherMenu.style.visibility = 'hidden';
-                    }
-                });
-                
-                // Alternar o menu atual
-                if (isMenuOpen) {
-                    megaMenu.style.opacity = '0';
-                    megaMenu.style.visibility = 'hidden';
-                    isMenuOpen = false;
-                } else {
-                    megaMenu.style.opacity = '1';
-                    megaMenu.style.visibility = 'visible';
-                    isMenuOpen = true;
-                }
-            });
-            
-            // Fechar menu ao clicar em um link
-            const menuLinks = megaMenu.querySelectorAll('a');
-            menuLinks.forEach(link => {
-                link.addEventListener('click', function() {
-                    megaMenu.style.opacity = '0';
-                    megaMenu.style.visibility = 'hidden';
-                    isMenuOpen = false;
-                });
-            });
-            
-            // Fechar menu ao clicar fora
-            document.addEventListener('click', function(e) {
-                if (!navItem.contains(e.target)) {
-                    megaMenu.style.opacity = '0';
-                    megaMenu.style.visibility = 'hidden';
-                    isMenuOpen = false;
-                }
-            });
-            
-        } else {
-            // Comportamento para desktop (mantém o hover original)
-            navItem.addEventListener('mouseenter', function() {
-                megaMenu.style.opacity = '1';
-                megaMenu.style.visibility = 'visible';
-            });
-            
-            navItem.addEventListener('mouseleave', function() {
-                megaMenu.style.opacity = '0';
-                megaMenu.style.visibility = 'hidden';
-            });
-        }
-    });
-}
-
-// Função para renderizar produtos
-function renderProducts(products) {
-    if (products.length === 0) {
-        productsGrid.innerHTML = '';
-        return;
-    }
-
-    const productsHTML = products.map(product => `
-        <div class="product-card" onclick="viewProductDetails(${product.id})">
-            <div class="product-image">
-                <div class="image_card">
-                    <img src="${product.image}" alt="${product.name}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Imagem não disponível</span>';">
-                </div>
-            </div>
-            <div class="product-info">
-                <h3 class="product-name">${product.name}</h3>
-                <p class="product-description">${product.description || 'Produto de qualidade premium'}</p>
-                <div class="product-footer">
-                    <span class="product-category">${product.subcategory || product.category}</span>
-                    <button class="product-button" onclick="event.stopPropagation(); viewProductDetails(${product.id})">
-                        Ver detalhes
-                    </button>
-                </div>
-            </div>
-        </div>
-    `).join('');
-
-    productsGrid.innerHTML = productsHTML;
-}
-
-// Função para filtrar produtos por categoria
-function filterByCategory(category, subcategory = '') {
-    currentCategory = category;
-    
-    if (subcategory) {
-        filteredProducts = productsData.filter(product => 
-            product.category.toLowerCase() === category.toLowerCase() && 
-            product.subcategory.toLowerCase().includes(subcategory.toLowerCase())
-        );
-    } else {
-        filteredProducts = productsData.filter(product => 
-            product.category.toLowerCase() === category.toLowerCase()
-        );
-    }
-    
-    renderProducts(filteredProducts);
-    updateNoResults('');
-    
-    // Scroll suave para a seção de produtos
-    const productsSection = document.querySelector('.products-section');
-    if (productsSection) {
-        smoothScrollTo(productsSection);
-    }
-}
-
-// Função para buscar produtos
-function searchProducts(query) {
-    if (!query.trim()) {
-        filteredProducts = [...productsData];
-        renderProducts(filteredProducts);
-        updateNoResults('');
-        return;
-    }
-
-    const searchTerm = query.toLowerCase();
-    filteredProducts = productsData.filter(product => 
-        product.name.toLowerCase().includes(searchTerm) ||
-        product.category.toLowerCase().includes(searchTerm) ||
-        product.subcategory.toLowerCase().includes(searchTerm) ||
-        (product.description && product.description.toLowerCase().includes(searchTerm))
-    );
-
-    renderProducts(filteredProducts);
-    
-    if (filteredProducts.length === 0) {
-        updateNoResults(query);
-    } else {
-        updateNoResults('');
-    }
-}
-
-// Função para mostrar sugestões de busca
-function showSearchSuggestions(query) {
-    if (!query.trim()) {
-        searchSuggestions.classList.remove('show');
-        return;
-    }
-
-    const searchTerm = query.toLowerCase();
-    const suggestions = productsData.filter(product => 
-        product.name.toLowerCase().includes(searchTerm) ||
-        product.category.toLowerCase().includes(searchTerm) ||
-        product.subcategory.toLowerCase().includes(searchTerm)
-    ).slice(0, 5);
-
-    if (suggestions.length === 0) {
-        searchSuggestions.classList.remove('show');
-        return;
-    }
-
-    const suggestionsHTML = suggestions.map(product => `
-        <div class="suggestion-item" onclick="selectSuggestion('${product.name}')">
-            <div class="suggestion-image">
-                <div class="suggestion-image-img">
-                    <img src="${product.image}" alt="${product.name}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\\"font-size: 10px;\\">Sem imagem</span>';">
-                </div>
-            </div>
-            <div class="suggestion-info">
-                <h5>${product.name}</h5>
-                <p>${product.subcategory || product.category}</p>
-            </div>
-        </div>
-    `).join('');
-
-    suggestionsList.innerHTML = suggestionsHTML;
-    searchSuggestions.classList.add('show');
-}
-
-// Função para selecionar sugestão
-function selectSuggestion(productName) {
-    searchInput.value = productName;
-    searchProducts(productName);
-    searchSuggestions.classList.remove('show');
-}
-
-// Função para limpar busca
-function clearSearch() {
-    searchInput.value = '';
-    filteredProducts = [...productsData];
-    renderProducts(filteredProducts);
-    updateNoResults('');
-    searchSuggestions.classList.remove('show');
-}
-
-// Função para atualizar mensagem de "sem resultados"
-function updateNoResults(query) {
-    if (query) {
-        searchTerm.textContent = query;
-        noResults.style.display = 'block';
-        productsGrid.style.display = 'none';
-    } else {
-        noResults.style.display = 'none';
-        productsGrid.style.display = 'grid';
-    }
-}
-
-// Função para ver detalhes do produto
-function viewProductDetails(productId) {
-    const product = productsData.find(p => p.id === productId);
-    if (product) {
-        alert(`Produto: ${product.name}\nCategoria: ${product.subcategory || product.category}\n\nPara mais informações, entre em contato via WhatsApp!`);
-    }
-}
-
-// Event Listeners
-document.addEventListener('DOMContentLoaded', function() {
-    // Inicializar Mega Menu
-    initializeMegaMenu();
-    
-    // Renderizar todos os produtos inicialmente
-    renderProducts(filteredProducts);
-
-    // Event listener para busca
-    searchInput.addEventListener('input', function() {
-        const query = this.value;
-        searchProducts(query);
-        showSearchSuggestions(query);
-    });
-
-    // Event listener para focar na busca
-    searchInput.addEventListener('focus', function() {
-        if (this.value.trim()) {
-            showSearchSuggestions(this.value);
-        }
-    });
-
-    // Event listener para clicar fora das sugestões
-    document.addEventListener('click', function(e) {
-        if (!searchInput.contains(e.target) && !searchSuggestions.contains(e.target)) {
-            searchSuggestions.classList.remove('show');
-        }
-    });
-
-    // Event listeners para links do mega menu
-    document.querySelectorAll('.mega-menu a').forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const text = this.textContent.trim();
-            
-            // Mapear categorias
-            const categoryMap = {
-                'Água de Coco': () => filterByCategory('bebidas', 'Água de Coco'),
-                'Água Mineral': () => filterByCategory('bebidas', 'Água Mineral'),
-                'Vodka': () => filterByCategory('bebidas', 'vodka'),
-                'Cachaça': () => filterByCategory('bebidas', 'cachaça'),
-                'Whisky': () => filterByCategory('bebidas', 'whisky'),
-                'Gin': () => filterByCategory('bebidas', 'gin'),
-                'Tequila': () => filterByCategory('bebidas', 'tequila'),
-                'Conhaque': () => filterByCategory('bebidas', 'conhaque'),
-                'Licor': () => filterByCategory('bebidas', 'licor'),
-                'Cervejas': () => filterByCategory('bebidas', 'cerveja'),
-                'Vinhos Nacionais': () => filterByCategory('bebidas', 'vinho nacional'),
-                'Vinhos Importados': () => filterByCategory('bebidas', 'vinho importado'),
-                'Espumantes': () => filterByCategory('bebidas', 'espumante'),
-                'Refrigerantes': () => filterByCategory('bebidas', 'refrigerantes'),
-                'Energéticos': () => filterByCategory('bebidas', 'energético'),
-                'Sucos': () => filterByCategory('bebidas', 'suco'),
-                'Xarope': () => filterByCategory('bebidas', 'xarope')
-            };
-
-            if (categoryMap[text]) {
-                categoryMap[text]();
-            } else {
-                // Busca genérica se não encontrar categoria específica
-                searchInput.value = text;
-                searchProducts(text);
-            }
-        });
-    });
-
-    // Reinicializar mega menu quando a tela for redimensionada
-    window.addEventListener('resize', function() {
-        // Aguardar um pouco para garantir que o resize terminou
-        setTimeout(initializeMegaMenu, 100);
-    });
-});
-
-// Função para scroll suave (opcional)
-function smoothScrollTo(element) {
-    element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-    });
-}
-
-// Adicionar efeito de loading (opcional)
-function showLoading() {
-    productsGrid.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">Carregando produtos...</div>';
-}
-
-// Função para adicionar novos produtos (para uso futuro)
-function addProduct(product) {
-    productsData.push({
-        ...product,
-        id: productsData.length + 1
-    });
-    
-    if (searchInput.value.trim() === '') {
-        filteredProducts = [...productsData];
-        renderProducts(filteredProducts);
-    }
-}
-
-// Função para remover produto (para uso futuro)
-function removeProduct(productId) {
-    const index = productsData.findIndex(p => p.id === productId);
-    if (index > -1) {
-        productsData.splice(index, 1);
-        filteredProducts = filteredProducts.filter(p => p.id !== productId);
-        renderProducts(filteredProducts);
-    }
-}
-
-// Exportar funções para uso global (se necessário)
-window.viewProductDetails = viewProductDetails;
-window.filterByCategory = filterByCategory;
-window.clearSearch = clearSearch;
-window.addProduct = addProduct;
-window.removeProduct = removeProduct;
-
+]

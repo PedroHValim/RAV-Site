@@ -1,0 +1,42 @@
+[
+    {
+        "id": 812,
+        "name": "CREAM CHEESE CATUPIRY 1,2 KG",
+        "description": "",
+        "category": "Laticínios",
+        "subcategory": "Cream Cheese",
+        "image": "src_produtos/images/cream-cheese-catupiry-1-2kg.png"
+    },
+    {
+        "id": 808,
+        "name": "CREAM CHEESE DANÚBIO 1 KG",
+        "description": "",
+        "category": "Laticínios",
+        "subcategory": "Cream Cheese",
+        "image": "src_produtos/images/cream-cheese-danubio-1kg.png"
+    },
+    {
+        "id": 809,
+        "name": "CREAM CHEESE SACHÊ DANÚBIO 18 G",
+        "description": "",
+        "category": "Laticínios",
+        "subcategory": "Cream Cheese",
+        "image": "src_produtos/images/cream-cheese-sache-danubio-18g.png"
+    },
+    {
+        "id": 810,
+        "name": "CREAM CHEESE POLENGHI",
+        "description": "",
+        "category": "Laticínios",
+        "subcategory": "Cream Cheese",
+        "image": "src_produtos/images/cream-cheese-polenghi.png"
+    },
+    {
+        "id": 811,
+        "name": "CREAM CHEESE QUATÁ 1,01 KG",
+        "description": "",
+        "category": "Laticínios",
+        "subcategory": "Cream Cheese",
+        "image": "src_produtos/images/cream-cheese-quata-1-01kg.png"
+    }
+]

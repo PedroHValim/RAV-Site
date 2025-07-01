@@ -1,0 +1,594 @@
+[
+    {
+      "id": 808,
+      "name": "CREAM CHEESE DANÚBIO 1 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-danubio-1kg.png"
+    },
+    {
+      "id": 809,
+      "name": "CREAM CHEESE SACHÊ DANÚBIO 18 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-sache-danubio-18g.png"
+    },
+    {
+      "id": 810,
+      "name": "CREAM CHEESE POLENGHI",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-polenghi.png"
+    },
+    {
+      "id": 811,
+      "name": "CREAM CHEESE QUATÁ 1,01 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-quata-1-01kg.png"
+    },
+    {
+      "id": 812,
+      "name": "CREAM CHEESE CATUPIRY 1,2 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-catupiry-1-2kg.png"
+    },
+    {
+      "id": 813,
+      "name": "CREAM CHEESE SULMINAS 1,2 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-sulminas-1-2kg.png"
+    },
+    {
+      "id": 814,
+      "name": "CREAM CHEESE SCALA 1,2 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-scala-1-2kg.png"
+    },
+    {
+      "id": 815,
+      "name": "CREAM CHEESE PHILADELPHIA 1,5 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-philadelphia-1-5kg.png"
+    },
+    {
+      "id": 816,
+      "name": "CREAM CHEESE COROCHEESE CORONATA 1,2 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-corocheese-coronata-1-2kg.png"
+    },
+    {
+      "id": 817,
+      "name": "CREAM CHEESE SCALA 3,6 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-scala-3-6kg.png"
+    },
+    {
+      "id": 818,
+      "name": "CREAM CHEESE PEQUENO SCALA 150 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-pequeno-scala-150g.png"
+    },
+    {
+      "id": 819,
+      "name": "CREAM CHEESE PHILADELPHIA 3,6 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-philadelphia-3-6kg.png"
+    },
+    {
+      "id": 820,
+      "name": "CREAM CHEESE PEQUENO POLENGHI 300 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-pequeno-polenghi-300g.png"
+    },
+    {
+      "id": 821,
+      "name": "CREAM CHEESE IPANEMA 1,2 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-ipanema-1-2kg.png"
+    },
+    {
+      "id": 822,
+      "name": "CREAM CHEESE SCALON 1,02 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-scalon-1-02kg.png"
+    },
+    {
+      "id": 823,
+      "name": "CREAM CHEESE SACHÊ PRESIDENT 18 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-president-sache.png"
+    },
+    {
+      "id": 824,
+      "name": "CREAM CHEESE POLENGHI 1 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Cream Cheese",
+      "image": "src_produtos/images/cream-cheese-polenghi1kg.png"
+    },
+    {
+    "id": 825,
+    "name": "CREME DE LEITE ITALAC 200 G",
+    "description": "",
+    "category": "Laticínios",
+    "subcategory": "Creme de Leite",
+    "image": "src_produtos/images/creme-de-leite-italac-200g.png"
+    },
+    {
+      "id": 826,
+      "name": "BASE CULINÁRIA LECO 1 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Creme de Leite",
+      "image": "src_produtos/images/base-culinaria-leco-1kg.png"
+    },
+    {
+      "id": 827,
+      "name": "CREME DE LEITE PIRACANJUBA 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Creme de Leite",
+      "image": "src_produtos/images/creme-de-leite-piracanjuba-200g.png"
+    },
+    {
+      "id": 828,
+      "name": "CREME DE LEITE JUSSARA 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Creme de Leite",
+      "image": "src_produtos/images/creme-de-leite-jussara-200g.png"
+    },
+    {
+      "id": 829,
+      "name": "CREME DE LEITE GRANDE FOOD SERVICE ITALAC 1,030 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Creme de Leite",
+      "image": "src_produtos/images/creme-de-leite-grande-food-service-italac-1030kg.png"
+    },
+    {
+      "id": 830,
+      "name": "CREME CULINÁRIO DAUS 1 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Creme de Leite",
+      "image": "src_produtos/images/creme-culinario-daus-1kg.png"
+    },
+    {
+      "id": 831,
+      "name": "MISTURA LÁCTEA CREME DE LEITE MOCOCA 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Creme de Leite",
+      "image": "src_produtos/images/mistura-lactea-creme-de-leite-mococa-200g.png"
+    },
+    {
+      "id": 832,
+      "name": "CREME DE LEITE GRANDE FOOD SERVICE PIRACANJUBA 1,030 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Creme de Leite",
+      "image": "src_produtos/images/creme-de-leite-grande-food-service-piracanjuba-1030kg.png"
+    },
+    {
+      "id": 833,
+      "name": "CREME DE LEITE QUATÁ 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Creme de Leite",
+      "image": "src_produtos/images/creme-de-leite-quata-200g.png"
+    },
+    {
+      "id": 834,
+      "name": "LEITE INTEGRAL ITALAC 1 L",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-integral-italac-1l.png"
+    },
+    {
+      "id": 835,
+      "name": "LEITE EM PÓ INTEGRAL PIRACANJUBA 400 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-em-po-integral-piracanjuba-400g.png"
+    },
+    {
+      "id": 836,
+      "name": "LEITE EM PÓ INTEGRAL ITALAC 400 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-em-po-integral-italac-400g.png"
+    },
+    {
+      "id": 837,
+      "name": "LEITE INTEGRAL JUSSARA 1 L",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-integral-jussara-1l.png"
+    },
+    {
+      "id": 838,
+      "name": "LEITE INTEGRAL GARRAFA MAX JUSSARA 1 L",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-integral-garrafa-max-jussara-1l.png"
+    },
+    {
+      "id": 839,
+      "name": "LEITE SEMIDESNATADO ZERO LACTOSE JUSSARA 1 L",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-semi-zero-lactose-jussara-1l.png"
+    },
+    {
+      "id": 840,
+      "name": "LEITE SEMIDESNATADO ITALAC 1 L",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-semi-italac-1l.png"
+    },
+    {
+      "id": 841,
+      "name": "LEITE INTEGRAL ZERO LACTOSE ITALAC 1 L",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-zero-lactose-italac-1l.png"
+    },
+    {
+      "id": 844,
+      "name": "LEITE EM PÓ INTEGRAL JUSSARA 400 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-em-po-integral-jussara-400g.png"
+    },
+    {
+      "id": 847,
+      "name": "LEITE EM PÓ INTEGRAL LA SERENISSIMA 400 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-em-po-integral-la-serenissima-400g.png"
+    },
+    {
+      "id": 848,
+      "name": "LEITE EM PÓ DESNATADO INSTANTÂNEO LA SERENISSIMA 300 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leites",
+      "image": "src_produtos/images/leite-em-po-desnatado-instantaneo-la-serenissima-300g.png"
+    },
+    {
+      "id": 849,
+      "name": "LEITE CONDENSADO PEQUENO SEMIDESNATADO ITALAC 270 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-pequeno-semi-italac-270g.png"
+    },
+    {
+      "id": 850,
+      "name": "LEITE CONDENSADO PEQUENO INTEGRAL MOÇA NESTLÉ 395 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-pequeno-integral-moca-nestle-395g.png"
+    },
+    {
+      "id": 851,
+      "name": "LEITE CONDENSADO GRANDE INTEGRAL MOÇA NESTLÉ 2,6 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-grande-integral-moca-nestle-2-6kg.png"
+    },
+    {
+      "id": 852,
+      "name": "LEITE CONDENSADO PEQUENO SEMIDESNATADO PIRACANJUBA 270 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-pequeno-semi-piracanjuba-270g.png"
+    },
+    {
+      "id": 853,
+      "name": "LEITE CONDENSADO MÉDIO \"SEMIDESNATADO\" ITALAC 395 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-medio-semi-italac-395g.png"
+    },
+    {
+      "id": 854,
+      "name": "LEITE CONDENSADO SEMIDESNATADO FOOD SERVICE ITALAC 2,5 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-foodservice-italac-2-5kg.png"
+    },
+    {
+      "id": 855,
+      "name": "LEITE CONDENSADO SEMIDESNATADO FOOD SERVICE PIRACANJUBA 2,5 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-foodservice-piracanjuba-2-5kg.png"
+    },
+    {
+      "id": 856,
+      "name": "MISTURA LÁCTEA CONDENSADA PEQUENA MOCOCA 395 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/mistura-lactea-condensada-mococa-395g.png"
+    },
+    {
+      "id": 857,
+      "name": "LEITE CONDENSADO PEQUENO INTEGRAL MOCOCA 395 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-pequeno-integral-mococa-395g.png"
+    },
+    {
+      "id": 858,
+      "name": "LEITE CONDENSADO INTEGRAL MOCOCA 2,5 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-integral-mococa-2-5kg.png"
+    },
+    {
+      "id": 859,
+      "name": "LEITE CONDENSADO GRANDE INTEGRAL MOCOCA 5 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-grande-integral-mococa-5kg.png"
+    },
+    {
+      "id": 860,
+      "name": "LEITE CONDENSADO \"INTEGRAL\" ITALAC 395 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-integral-italac-395g.png"
+    },
+    {
+      "id": 861,
+      "name": "LEITE CONDENSADO GRANDE INTEGRAL ITAMBÉ 1,01 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Leite Condensado",
+      "image": "src_produtos/images/leite-condensado-grande-integral-itambe-1-01kg.png"
+    },
+    {
+      "id": 862,
+      "name": "DOCE DE LEITE SABOR DE MINAS 1,5 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Doce de Leite",
+      "image": "src_produtos/images/doce-de-leite-sabor-de-minas-1-5kg.png"
+    },
+    {
+      "id": 863,
+      "name": "DOCE DE LEITE FRIMESA 4,8 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Doce de Leite",
+      "image": "src_produtos/images/doce-de-leite-frimesa-4-8kg.png"
+    },
+    {
+      "id": 864,
+      "name": "DOCE DE LEITE NESTLÉ 1,01 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Doce de Leite",
+      "image": "src_produtos/images/doce-de-leite-nestle-1-01kg.png"
+    },
+    {
+      "id": 865,
+      "name": "DOCE DE LEITE TRADICIONAL FRIMESA 400 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Doce de Leite",
+      "image": "src_produtos/images/doce-de-leite-tradicional-frimesa-400g.png"
+    },
+    {
+      "id": 866,
+      "name": "DOCE DE LEITE LA SERENISSIMA 1 KG",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Doce de Leite",
+      "image": "src_produtos/images/doce-de-leite-la-serenissima-1kg.png"
+    },
+    {
+      "id": 867,
+      "name": "MANTEIGA SACHÊ SEM SAL VIGOR 10 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sache-sem-sal-vigor-10g.png"
+    },
+    {
+      "id": 868,
+      "name": "MANTEIGA SEM SAL SCALA",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sem-sal-scala.png"
+    },
+    {
+      "id": 869,
+      "name": "MANTEIGA SEM SAL TRÊS MARIAS",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sem-sal-tres-marias.png"
+    },
+    {
+      "id": 870,
+      "name": "MANTEIGA SACHÊ COM SAL VIGOR 10 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sache-com-sal-vigor-10g.png"
+    },
+    {
+      "id": 871,
+      "name": "MANTEIGA SEM SAL TIROLEZ",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sem-sal-tirollez.png"
+    },
+    {
+      "id": 872,
+      "name": "MANTEIGA SEM SAL COYOTE",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sem-sal-coyote.png"
+    },
+    {
+      "id": 873,
+      "name": "MANTEIGA COM SAL TRÊS MARIAS",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-com-sal-tres-marias.png"
+    },
+    {
+      "id": 874,
+      "name": "MANTEIGA COM SAL ITALAC 500 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-com-sal-italac-500g.png"
+    },
+    {
+      "id": 875,
+      "name": "MANTEIGA SACHÊ COM SAL PRESIDENT 10 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sache-com-sal-president-10g.png"
+    },
+    {
+      "id": 876,
+      "name": "MANTEIGA SACHÊ SEM SAL PRESIDENT 10 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sache-sem-sal-president-10g.png"
+    },
+    {
+      "id": 877,
+      "name": "MANTEIGA SEM SAL FRIZZO",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-sem-sal-frizzo.png"
+    },
+    {
+      "id": 878,
+      "name": "MANTEIGA COM SAL COYOTE",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-com-sal-coyote.png"
+    },
+    {
+      "id": 879,
+      "name": "MANTEIGA PEQUENA COM SAL CRIOULO 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-pequena-com-sal-crioulo-200g.png"
+    },
+    {
+      "id": 880,
+      "name": "MANTEIGA PEQUENA COM SAL TIROLEZ 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-pequena-com-sal-tirollez-200g.png"
+    },
+    {
+      "id": 881,
+      "name": "MANTEIGA PEQUENA SEM SAL TIROLEZ 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-pequena-sem-sal-tirollez-200g.png"
+    },
+    {
+      "id": 882,
+      "name": "MANTEIGA PEQUENA EXTRA SEM SAL LA SERENISSIMA 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-pequena-extra-sal-serenissima200g.png"
+    },
+    {
+      "id": 883,
+      "name": "MANTEIGA SEM SAL BLEND PASSA QUATRO",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-pequena-sem-sal-blend-passa-quatro.png"
+    },
+    {
+      "id": 884,
+      "name": "MANTEIGA COM SAL TABLETE TIROLEZ 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-pequena-com-sal-tablete-tirollez-200g.png"
+    },
+    {
+      "id": 885,
+      "name": "MANTEIGA COM SAL TABLETE DOR 200 G",
+      "description": "",
+      "category": "Laticínios",
+      "subcategory": "Manteiga",
+      "image": "src_produtos/images/manteiga-pequena-com-sal-dor-200g.png"
+    }
+]
