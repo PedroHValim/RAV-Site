@@ -39,6 +39,20 @@ body {
     height: 70px;
 }
 
+#div_btn_limpar{
+    display: none;
+}
+
+#btn_limpar{
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);;
+    transition: transform 0.2s ease;
+}
 
 #btn_logout{
     background-color: #fff;
@@ -129,7 +143,7 @@ body {
     top: 100%;
     left: 50%;
     transform: translateX(-20%);
-    width: 100vw;
+    width: 59vw;
     max-width: 1000px;
     background: linear-gradient(to bottom, #e9f1ff, #ffffff);
     border: 1px solid #e5e5e5;
@@ -475,6 +489,14 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
 
+    #div_btn_limpar{
+        display: flex;
+    }
+
+    .search-container{
+        display: none;
+    }
+
     #btn_logout{
         display: none;
     }
@@ -501,7 +523,8 @@ body {
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100vw;
+        right: 0;
+        width: 60vw;
         background: linear-gradient(to bottom, #e9f1ff, #ffffff); 
         z-index: 9999;
         max-height: 60vh;
@@ -568,6 +591,8 @@ body {
 }
 
 @media (max-width: 480px) {
+
+    
     .container {
         padding: 0 16px;
     }
@@ -577,7 +602,7 @@ body {
     }
     
     .nav-button {
-        font-size: 14px;
+        font-size: 18px;
         padding: 8px 4px;
     }
     
