@@ -19,7 +19,7 @@ body {
 .container {
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 /* Header */
@@ -83,18 +83,9 @@ body {
 }
 
 /* Logo */
-.logo h1 {
-    font-family: 'Poppins', sans-serif;  /* Fonte elegante e moderna */
-    font-size: 2.5rem;                   /* Tamanho grande e legível */
-    font-weight: 700;                    /* Negrito para presença */
-    letter-spacing: 2px;                /* Espaçamento entre letras */
-    color: #1a1a7a;                      /* Azul escuro sofisticado */
-    text-transform: uppercase;          /* Deixa tudo em caixa alta */
-    background: linear-gradient(90deg, #a1c0ee, #0052cc); /* Degradê */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Faz o degradê aparecer no texto */
-    user-select: none;
-    padding: 0 10px;
+#nav_logo_img {
+    height: 60px; /* ou ajuste conforme necessário */
+    width: auto;
 }
 
 
