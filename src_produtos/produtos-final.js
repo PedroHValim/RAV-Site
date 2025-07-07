@@ -6003,6 +6003,11 @@ function initializeMegaMenu() {
                 megaMenu.style.opacity = '1';
                 megaMenu.style.visibility = 'visible';
             });
+
+            navItem.addEventListener('click', function() {
+                megaMenu.style.opacity = '0';
+                megaMenu.style.visibility = 'hidden';
+            });
             
             navItem.addEventListener('mouseleave', function() {
                 megaMenu.style.opacity = '0';
